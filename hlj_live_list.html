@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width'>
+    <title>直播列表</title>
+    <link rel="stylesheet" href="css/col.css">
+    <link rel="stylesheet" href="css/hlj_live_list.css">
+    <link rel="stylesheet" href="css/xm_search.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+<!--头部 S -->
+<div class="hlj_header">
+    <div class="hlj_container">
+        <!--<a class="hlj_back"><img src="images/hlj_icon_back.png" alt=""></a>-->
+        <div class="hlj_title">
+            <h3>直播</h3>
+        </div>
+    </div>
+</div>
+<!--头部 E -->
+<!--搜索 S -->
+<div class="hlj_search">
+    <div class="hlj_inner">
+        <a href="xm_histroy.html" class="hlj_btn_search"><img src="images/hlj_icon_search.png" alt=""></a>
+        <span>|</span>
+        <a href="javascript:void(0)" class="hlj_btn_mic"><img src="images/hlj_icon_mic.png" alt=""></a>
+        <input type="text" value="Search ..." onfocus="javascript:if(this.value=='Search ...'){this.value=''}" onblur="javascript:if(this.value==''){this.value='Search ...'}">
+    </div>
+</div>
+<!--搜索 E -->
+<!--导航 S -->
+<div class="hlj_nav">
+    <div class="hlj_container">
+        <ul class="hlj_navList">
+            <li class="hlj_active">
+                <a href="">
+                    <img class="hlj_normal" src="images/hlj_nav1.png" alt="">
+                    <img class="hlj_active" src="images/hlj_nav1_current.png" alt="">
+                </a>
+                <span>|</span>
+            </li>
+            <li>
+                <a href="">
+                    <img class="hlj_normal" src="images/hlj_nav2.png" alt="">
+                    <img class="hlj_active" src="images/hlj_nav2_current.png" alt="">
+                </a>
+                <span>|</span>
+            </li>
+            <li>
+                <a href="">
+                    <img class="hlj_normal" src="images/hlj_nav3.png" alt="">
+                    <img class="hlj_active" src="images/hlj_nav3_current.png" alt="">
+                </a>
+                <span>|</span>
+            </li>
+            <li>
+                <a href="">
+                    <img class="hlj_normal" src="images/hlj_nav4.png" alt="">
+                    <img class="hlj_active" src="images/hlj_nav4_current.png" alt="">
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--导航 E -->
+<!--banner S -->
+<div class="hlj_banner">
+    <ul>
+        <li class="hlj_banner_fir">
+            <a href="javascript:coid(0)" style="background-image:url('images/hlj_banner01.jpg')"></a>
+        </li>
+        <li class="hlj_banner_sec">
+            <a href="javascript:coid(0)"></a>
+        </li>
+        <li class="hlj_banner_thi">
+            <a href="javascript:coid(0)"></a>
+        </li>
+    </ul>
+</div>
+<!--banner E -->
+<!--精彩推荐 S -->
+<div class="hlj_recommend">
+    <div class="hlj_title">
+        <img src="images/hlj_title_wonderful.png" alt="">
+    </div>
+    <div class="hlj_content">
+        <ul>
+            <li>
+                <a class="hlj_thumb" href="hlj_live.html" style="background-image: url('images/hlj_wonderful_bg.jpg')">
+                    <p class="hlj_intro">秋天户外很美丽</p>
+                    <div class="hlj_info">
+                        <div class="hlj_avatar">
+                            <p style="background-image: url('')"></p>
+                        </div>
+                        <div class="hlj_name">
+                            <h5>夕言、、、</h5>
+                            <h6>THERE IS JOY IN AUTUMN</h6>
+                        </div>
+                    </div>
+                </a>
+                <div>
+                    <a href="javascript:void(0)" class="hlj_grade">
+                        <ul class="hlj_star_empty">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <ul class="hlj_star">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </a>
+                    <a href="javascript:void(0)" class="hlj_online">
+                        <img src="images/hlj_smile.png" alt="" class="hlj_smile">
+                        <span>33344</span>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <a class="hlj_thumb" href="hlj_live.html" style="background-image: url('images/hlj_wonderful_bg.jpg')">
+                    <p class="hlj_intro">秋天户外很美丽</p>
+                    <div class="hlj_info">
+                        <div class="hlj_avatar">
+                            <p style="background-image: url('')"></p>
+                        </div>
+                        <div class="hlj_name">
+                            <h5>夕言、、、</h5>
+                            <h6>THERE IS JOY IN AUTUMN</h6>
+                        </div>
+                    </div>
+                </a>
+                <div>
+                    <a href="javascript:void(0)" class="hlj_grade">
+                        <ul class="hlj_star_empty">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <ul class="hlj_star">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </a>
+                    <a href="javascript:void(0)" class="hlj_online">
+                        <img src="images/hlj_smile.png" alt="" class="hlj_smile">
+                        <span>33344</span>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <a class="hlj_thumb" href="hlj_live.html" style="background-image: url('images/hlj_wonderful_bg.jpg')">
+                    <p class="hlj_intro">秋天户外很美丽</p>
+                    <div class="hlj_info">
+                        <div class="hlj_avatar">
+                            <p style="background-image: url('')"></p>
+                        </div>
+                        <div class="hlj_name">
+                            <h5>夕言、、、</h5>
+                            <h6>THERE IS JOY IN AUTUMN</h6>
+                        </div>
+                    </div>
+                </a>
+                <div>
+                    <a href="javascript:void(0)" class="hlj_grade">
+                        <ul class="hlj_star_empty">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <ul class="hlj_star">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </a>
+                    <a href="javascript:void(0)" class="hlj_online">
+                        <img src="images/hlj_smile.png" alt="" class="hlj_smile">
+                        <span>33344</span>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <a class="hlj_thumb" href="hlj_live.html" style="background-image: url('images/hlj_wonderful_bg.jpg')">
+                    <p class="hlj_intro">秋天户外很美丽</p>
+                    <div class="hlj_info">
+                        <div class="hlj_avatar">
+                            <p style="background-image: url('')"></p>
+                        </div>
+                        <div class="hlj_name">
+                            <h5>夕言、、、</h5>
+                            <h6>THERE IS JOY IN AUTUMN</h6>
+                        </div>
+                    </div>
+                </a>
+                <div>
+                    <a href="javascript:void(0)" class="hlj_grade">
+                        <ul class="hlj_star_empty">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <ul class="hlj_star">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </a>
+                    <a href="javascript:void(0)" class="hlj_online">
+                        <img src="images/hlj_smile.png" alt="" class="hlj_smile">
+                        <span>33344</span>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <a class="hlj_thumb" href="hlj_live.html" style="background-image: url('images/hlj_wonderful_bg.jpg')">
+                    <p class="hlj_intro">秋天户外很美丽</p>
+                    <div class="hlj_info">
+                        <div class="hlj_avatar">
+                            <p style="background-image: url('')"></p>
+                        </div>
+                        <div class="hlj_name">
+                            <h5>夕言、、、</h5>
+                            <h6>THERE IS JOY IN AUTUMN</h6>
+                        </div>
+                    </div>
+                </a>
+                <div>
+                    <a href="javascript:void(0)" class="hlj_grade">
+                        <ul class="hlj_star_empty">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <ul class="hlj_star">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </a>
+                    <a href="javascript:void(0)" class="hlj_online">
+                        <img src="images/hlj_smile.png" alt="" class="hlj_smile">
+                        <span>33344</span>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <a class="hlj_thumb" href="hlj_live.html" style="background-image: url('images/hlj_wonderful_bg.jpg')">
+                    <p class="hlj_intro">秋天户外很美丽</p>
+                    <div class="hlj_info">
+                        <div class="hlj_avatar">
+                            <p style="background-image: url('')"></p>
+                        </div>
+                        <div class="hlj_name">
+                            <h5>夕言、、、</h5>
+                            <h6>THERE IS JOY IN AUTUMN</h6>
+                        </div>
+                    </div>
+                </a>
+                <div>
+                    <a href="javascript:void(0)" class="hlj_grade">
+                        <ul class="hlj_star_empty">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <ul class="hlj_star">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </a>
+                    <a href="javascript:void(0)" class="hlj_online">
+                        <img src="images/hlj_smile.png" alt="" class="hlj_smile">
+                        <span>33344</span>
+                    </a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--精彩推荐 E -->
+<!--底部 S -->
+<div class="footer">
+    <ul class="footul">
+        <a href="index.html" class="footli"></a>
+        <a href="w_refresh.html" class="footli"></a>
+        <a href="javascript:; " class="footli  active" ></a>
+        <a href="w_own.html" class="footli"></a>
+    </ul>
+</div>
+<!--底部 E -->
+</body>
+</html>

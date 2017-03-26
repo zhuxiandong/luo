@@ -1,0 +1,210 @@
+@charset "UTF-8";
+.d_banner .d_width, .d_banner .d_width .d_width_top, .d_banner .d_width .d_width_top .d_top_first, .d_banner .d_width .d_width_top .d_top_second, .d_banner .d_width .d_width_bottom, .d_title .d_title_width, .d_big_money .d_money_bag, .d_big_money .d_money_bag .d_money_picture, .d_deal .d_deal_record {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto; }
+
+@font-face {
+  font-family: '苹方';
+  src: url("../fonts/PingFang Regular.ttf"); }
+
+@font-face {
+  font-family: 'sanfan';
+  src: url("../fonts/SYSTEM SAN FRANCISCO DISPLAY REGULAR.TTF"); }
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+body {
+  background: #f6f5f5; }
+
+.d_banner {
+  width: 100%;
+  height: 3.9rem;
+  background: #2a75ff;
+  position: relative; }
+  .d_banner .d_width {
+    width: 7.02rem;
+    height: 100%;
+    top: 0; }
+    .d_banner .d_width .d_width_top {
+      width: auto;
+      height: auto;
+      top: 0; }
+      .d_banner .d_width .d_width_top .d_top_first {
+        float: left;
+        top: 0; }
+      .d_banner .d_width .d_width_top .d_top_second {
+        width: 4rem;
+        height: 2rem;
+        float: left;
+        margin-left: 1.5rem;
+        top: 0;
+        background: url(../images/w_2.jpg);
+        background-size: cover; }
+    .d_banner .d_width .d_width_bottom {
+      width: auto;
+      height: auto;
+      margin-left: 2.35rem;
+      top: 1.8rem; }
+
+.d_title {
+  width: 100%;
+  height: 0.75rem;
+  position: relative; }
+  .d_title .d_title_width {
+    width: 2.53rem;
+    height: 0.65rem;
+    font-size: 0.48rem;
+    font-family: 'sanfan';
+    font-weight: bold; }
+
+.d_big_money {
+  width: 100%;
+  height: 2.25rem;
+  position: relative; }
+  .d_big_money .d_money_bag {
+    width: 7.02rem;
+    height: 100%;
+    background: #00a8f0;
+    border-radius: 0.1rem; }
+    .d_big_money .d_money_bag .d_money_picture {
+      width: 2.53rem;
+      height: 1.65rem; }
+    .d_big_money .d_money_bag .d_reflect a {
+      display: block;
+      width: 1.8rem;
+      height: 0.6rem;
+      background: url(../images/w_7.jpg) no-repeat;
+      background-size: cover;
+      position: absolute;
+      bottom: 0.07rem; }
+    .d_big_money .d_money_bag .d_money {
+      position: absolute;
+      bottom: 0.07rem;
+      left: 3rem;
+      color: #fff;
+      font-weight: bold;
+      font-family: 'sanfan';
+      font-size: 0.48rem; }
+    .d_big_money .d_money_bag .d_rmb {
+      position: absolute;
+      bottom: 0.05rem;
+      left: 4.1rem;
+      color: #97bafb;
+      font-size: 0.18rem;
+      font-weight: bold;
+      font-family: 'sanfan'; }
+    .d_big_money .d_money_bag .d_recharge a {
+      display: block;
+      width: 1.8rem;
+      height: 0.6rem;
+      background: url(../images/w_8.gif) no-repeat;
+      background-size: cover;
+      position: absolute;
+      bottom: 0.07rem;
+      right: 0; }
+
+.d_deal {
+  width: 100%;
+  height: 1.24rem;
+  margin-top: 0.2rem;
+  position: relative; }
+  .d_deal .d_deal_record {
+    width: 7.02rem;
+    height: 100%;
+    background: url(../images/w_9.jpg) no-repeat;
+    background-size: cover; }
+  .d_deal .d_line {
+    width: 0.11rem;
+    height: 4.8rem;
+    position: relative;
+    top: 1.25rem;
+    left: 0.62rem;
+    background: url(../images/w_10.jpg) repeat-y;
+    background-size: cover; }
+  .d_deal .d_note {
+    width: 3.85rem;
+    height: 0.32rem;
+    position: absolute;
+    left: 0.8rem;
+    top: 1.55rem; }
+    .d_deal .d_note .d_note_left {
+      width: 0.33rem;
+      height: 0.5rem;
+      background: url(../images/w_11.jpg) no-repeat;
+      background-size: cover;
+      float: left;
+      margin-right: 0.05rem; }
+    .d_deal .d_note .d_note_right {
+      font-family: 'sanfu';
+      font-size: 0.28rem;
+      color: #000;
+      float: left; }
+  .d_deal .d_forward {
+    width: 6.26rem;
+    height: 1.8rem;
+    background: #fff;
+    padding-left: 0.1rem;
+    border-radius: 0.1rem;
+    position: absolute;
+    left: 0.8rem;
+    top: 2.1rem; }
+    .d_deal .d_forward .d_forward_top {
+      width: 5.98rem;
+      height: 0.9rem;
+      border-bottom: 2px solid #dcdcdc;
+      margin-bottom: 0.1rem; }
+      .d_deal .d_forward .d_forward_top .d_forward_top_left {
+        width: 4rem;
+        height: 100%;
+        float: left; }
+        .d_deal .d_forward .d_forward_top .d_forward_top_left .d_top_left {
+          width: 100%;
+          height: 0.43rem; }
+          .d_deal .d_forward .d_forward_top .d_forward_top_left .d_top_left .d_span {
+            display: block;
+            width: 0.41rem;
+            height: 0.45rem;
+            background: url(../images/w_12.jpg);
+            background-size: cover;
+            float: left; }
+          .d_deal .d_forward .d_forward_top .d_forward_top_left .d_top_left .d_psa {
+            display: block;
+            width: 0.41rem;
+            height: 0.45rem;
+            background: url(../images/w_13.jpg);
+            background-size: cover; }
+          .d_deal .d_forward .d_forward_top .d_forward_top_left .d_top_left p {
+            color: #000;
+            font-family: '苹方';
+            font-size: 0.24rem; }
+        .d_deal .d_forward .d_forward_top .d_forward_top_left .d_top_right {
+          width: 100%;
+          height: 0.43rem;
+          text-align: left;
+          line-height: 0.43rem;
+          color: #000;
+          font-family: 'sanfu';
+          font-size: 0.2rem;
+          float: left; }
+      .d_deal .d_forward .d_forward_top .d_forward_top_right {
+        width: 1.5rem;
+        height: 100%;
+        float: right; }
+        .d_deal .d_forward .d_forward_top .d_forward_top_right .d_yuan {
+          font-size: 0.36rem;
+          font-family: 'sanfu';
+          font-weight: bold;
+          color: #8b8b8b; }
+        .d_deal .d_forward .d_forward_top .d_forward_top_right .d_RMB {
+          font-size: 0.2rem;
+          font-family: 'sanfu';
+          color: #d7d7d7;
+          float: right;
+          margin-top: -0.2rem; }
+    .d_deal .d_forward .d_forward_bottom {
+      border-bottom: none; }

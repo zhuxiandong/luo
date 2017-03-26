@@ -1,0 +1,87 @@
+@charset "UTF-8";
+.bxb_img, .bxb_nonet {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+body {
+  background: url(../images/bxb_bg3_03.png);
+  background-size: cover;
+}
+
+.bxb_img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background: url(../images/bxb-img_03.png);
+  background-size: cover;
+  top: 3.3rem;
+}
+
+.bxb_back {
+  width: 0.36rem;
+  height: 0.62rem;
+  position: absolute;
+  top: 0.72rem;
+  left: 0.24rem;
+  font-family: 'iconfont';
+  font-size: 0.48rem;
+  text-align: left;
+  color: #2345a7;
+}
+
+.bxb_nonet {
+  width: 100%;
+  height: 5.54rem;
+  background: url(../images/bxb_no_15.png) no-repeat;
+  background-size: cover;
+  bottom: 4.58rem;
+}
+
+.bxb-btn {
+  width: 100%;
+  height: 0.7rem;
+  position: absolute;
+  bottom: 4.24rem;
+}
+
+.bxb-btn li {
+  width: 2.34rem;
+  height: 0.7rem;
+  background: #448fe2;
+  border-radius: 0.7rem;
+  margin-right: 0.4rem;
+  float: left;
+  border: 2px solid #fff;
+  text-align: center;
+}
+
+.bxb-btn li a {
+  color: #fff;
+  line-height: 0.7rem;
+  font-size: 0.34rem;
+  font-family: "苹方 粗";
+}
+
+.bxb-btn li:nth-child(1) {
+  margin-left: 1.22rem;
+}
+
+.bxb-btn li:nth-child(2) {
+  background: #848484;
+}
+
+.bxb_x {
+  width: 0.68rem;
+  height: 0.68rem;
+  border-radius: 50%;
+  background: #1c1f2d;
+  position: absolute;
+  bottom: 2.64rem;
+  right: 0.72rem;
+  text-align: center;
+  line-height: 0.68rem;
+  color: #777474;
+}

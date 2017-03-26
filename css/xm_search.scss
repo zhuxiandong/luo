@@ -1,0 +1,683 @@
+@import "_base";
+body{
+  @include bg(#f1f1f1);
+}
+//header
+.xm_header{
+  @include rect(100%,0.9rem);
+  @include bg(#083368);
+  position: relative;
+  text-align: center;
+  .xm_jian{
+    @include rect(0.2rem,0.37rem);
+    position: absolute;
+    left:0.24rem;
+    bottom: 0.16rem;
+  }
+  .xm_title{
+    color:#fff;
+    line-height: 1.1rem;
+    font-size: 0.36rem;
+    letter-spacing:0.08rem;
+  }
+}
+//search
+.xm_search{
+  @include  rect(100%,0.7rem);
+  @include bg(#012169);
+  padding: 0 0.47rem;
+  position: relative;
+  input{
+    width: 73%;
+    outline: none;
+    border:none;
+    margin-top:0.16rem;
+    @include bg(transparent);
+    font-size: 0.2rem;
+    color: #fff;
+  }
+  .xm_guan{
+    @include rect(0.12rem,0.12rem);
+    right:2rem;
+    @extend %tb;
+  }
+  .xm_voice{
+    right: 1.58rem;
+    @extend %tb;
+    @include rect(0.23rem,0.30rem);
+  }
+  .xm_find{
+    @include rect(0.30rem,0.30rem);
+    right: 0.60rem;
+    @extend %tb;
+  }
+  .xm_xian{
+    @include rect(93%,0.03rem);
+    @extend %lr;
+    bottom: 0.12rem;
+    @include bg(#fff);
+  }
+  .xm_ge{
+    @include rect(0.01rem,0.14rem);
+    @extend %tb;
+    @include bg(#48ace5);
+    right: 1.2rem;
+  }
+}
+//content
+.xm_content{
+  width: 100%;
+  padding: 0 0.24rem;
+}
+.xm_work{
+  @include rect(100%,0.97rem);
+  li{
+    @include rect(33.333%,100%);
+    float: left;
+    text-align: center;
+    position: relative;
+    .xm_yuan{
+      @include circle(0.45rem);
+      @include bg(#5293dc);
+      line-height: 0.97rem;
+      margin-left:0.21rem;
+      text-align: center;
+      position: relative;
+      margin-top:0.26rem;
+      float: left;
+      img{
+        @include rect(0.2rem,0.17rem);
+        @extend %center;
+      }
+    }
+    .fen{
+      @include rect(0.03rem,0.33rem);
+      margin-left:0.07rem;
+      float: left;
+      margin-top: 0.32rem;
+    }
+    .choose{
+      @include rect(1.16rem,0.51rem);
+      float: left;
+      margin-left:0.07rem;
+      margin-top: 0.24rem;
+      font-size: 0.20rem;
+      color: #636363;
+      text-align: left;
+      position: relative;
+      div{
+        display: inline-block;
+        position: absolute;
+        left:0;
+        top:0;
+      }
+      .ying{
+        height: 0.16rem;
+        position: absolute;
+        left:0;
+        bottom: 0;
+      }
+    }
+  }
+  li:nth-child(1){
+    background: url("../images/xmb.png");
+    background-size: cover;
+  }
+  li:nth-child(2){
+    background: url("../images/xmb.png");
+    background-size: cover;
+    .xm_yuan{
+      @include bg(#f92158);
+      margin-left: 0.47rem;
+    }
+  }
+  li:nth-child(3){
+    .xm_yuan{
+      @include bg(#1fc866);
+    }
+    .ying{
+      height: 0.14rem;
+    }
+  }
+}
+.xm_xia{
+  width: 100%;
+  height: 0.02rem;
+  @include bg(#d5d5d5);
+  position: relative;
+  span{
+    @include circle(0.04rem);
+    @include bg(#939393);
+  }
+  span:nth-child(1){
+    position: absolute;
+    left:0;
+    top:-0.01rem;
+  }
+  span:nth-child(2){
+    position: absolute;
+    right:0;
+    top:-0.01rem;
+  }
+}
+//cate
+.xm_cate{
+  @include rect(100%,1.05rem);
+  background: url("../images/xmb2.png");
+  background-size: cover;
+}
+.cate{
+  @include rect(90%,100%);
+  margin:0 auto;
+  li{
+    @include rect(33.33%,100%);
+    float: left;
+    text-align: center;
+    position: relative;
+    .bei{
+      width: 1.85rem;
+      height: 0.6rem;
+      margin:0.2rem auto 0 ;
+      vertical-align: middle;
+      @extend %center;
+      background: url("../images/xm12.png");
+      background-size: cover;
+      .biao{
+        @include rect(0.22rem,0.22rem);
+        float: left;
+        margin-left: 0.18rem;
+        margin-top: 0.2rem;
+      }
+      .biao1{
+        @include rect(0.22rem,0.27rem);
+        float: left;
+        margin-left: 0.18rem;
+        margin-top: 0.18rem;
+      }
+      .biao2{
+        @include rect(0.22rem,0.27rem);
+        float: left;
+        margin-left: 0.18rem;
+        margin-top: 0.18rem;
+      }
+      div{
+        font-size: 0.24rem;
+        line-height:0.6rem;
+        color: #fff;
+      }
+    }
+
+  }
+}
+//history
+.xm_history{
+  @include rect(100%,0.84rem);
+  padding:  0.22rem 0.24rem;
+}
+.xm_hc{
+  width: 100%;
+  span{
+    font-size: 0.3rem;
+    color: #636363;
+  }
+  .line{
+    display: inline;
+    @include rect(0.03rem,0.25rem);
+    padding-top:0.02rem;
+  }
+  .title{
+    display: inline;
+    width: 2.83rem;
+  }
+  .clear{
+    @include rect(2rem,0.30rem);
+    @include bg(#dfdfdf);
+    display: inline;
+    float: right;
+    margin-top: 0.15rem;
+    border-radius: 0.12rem;
+    font-size: 0.20rem;
+    color: #6d6d6d;
+    img{
+      float: left;
+      display: inline;
+      width: 0.16rem;
+      margin-left: 0.12rem;
+      margin-top: 0.05rem;
+      margin-right: 0.1rem;
+    }
+  }
+}
+.xm_hx{
+  @include rect(100%,0.02rem);
+  @include bg(#e1e1e1);
+  margin-top: 0.08rem;
+}
+.xm_record{
+  width: 93%;
+  margin:0 auto;
+  overflow: hidden;
+}
+.xm_reone{
+  @include rect(100%,1.56rem);
+  margin: 0.2rem auto 0;
+  @include bg(#000);
+  transform: translate3d(0,0,0);
+  transition:transform 0.8s ease ;
+  position: relative;
+  &:hover{
+    transform: translate3d(-0.9rem,0,0);
+  }
+}
+.xm_show2{
+  background: url("../images/xs3.png");
+}
+.xm_show{
+  @include rect(100%,1.58rem);
+  background: url("../images/xs2.png");
+  background-size: cover;
+  position: absolute;
+  right: 0;
+  top:0;
+  z-index: 12;
+  .xm_avta{
+    width: 17%;
+    @extend %tb;
+  }
+  .xm_hcon{
+    float: right;
+    @include rect(83%,100%);
+    background: url("../images/xs5.png");
+    background-size: cover;
+    border-radius: 0.09rem;
+    padding:0.22rem 0.18rem 0 0.27rem;
+    p{
+      font-size: 0.24rem;
+      font-family: 'sanfan Bold';
+      color: #727272;
+      height: 0.26rem;
+      span{
+        font-family: 'sanfan';
+      }
+      .xm_star{
+        width: 1.07rem;
+        display: inline-block;
+        margin-left:0.1rem;
+        height: auto;
+        margin: 0;
+
+
+      }
+    }
+    img{
+      @include rect(2.55rem ,0.01rem);
+      margin-top: 0.1rem;
+      display: inherit;
+    }
+    pre{
+      margin-top: 0.05rem;
+      font-size: 0.24rem;
+      color:#9e9e9e;
+    }
+    .xm_look{
+      @include rect(1.68rem ,0.48rem);
+      position: absolute;
+      right: 0.17rem;
+      bottom: 0.44rem;
+      border-radius: 0.22rem;
+      border:0.02rem solid #c7c7c7;
+      line-height: 0.45rem;
+      text-align: center;
+      font-size: 0.18rem;
+      color: #9e9e9e;
+    }
+
+    .xm_shaw{
+      margin-top: 0.1rem;
+      @include rect(3.22rem ,0.37rem);
+      li{
+        @include rect(50% ,100%);
+        float: left;
+        .xm_zi{
+          float: left;
+          font-size: 0.24rem;
+          color:#949494;
+          margin-left: 0.1rem;
+        }
+        .xm_small{
+          float: left;
+          @include cube(0.37rem);
+          background: url("../images/xm-small.png");
+          background-size: cover;
+        }
+        .xm_share{
+          float: left;
+          @include cube(0.37rem);
+          background: url("../images/xm-share.png");
+          background-size: cover;
+        }
+      }
+    }
+  }
+}
+.xm_hide{
+  @include rect(1.1rem,1.56rem);
+  position: absolute;
+  right: -0.9rem;
+  top:0;
+  border-radius: 0.09rem;
+  overflow: hidden;
+  .xm_delete{
+    @include rect(100%,50%);
+    @include bg(#f92158);
+    text-align: center;
+    img{
+      width: 0.18rem;
+      margin-top: 0.26rem;
+    }
+  }
+  .xm_share{
+    @include rect(100%,50%);
+    @include bg(#5293dc);
+    text-align: center;
+    img{
+      width: 0.23rem;
+      margin-top: 0.26rem;
+    }
+  }
+}
+.xm_hot{
+  width: 100%;
+}
+.xm_hotcon{
+  width: 93%;
+  height: 10.30rem;
+  margin: 0 auto;
+  background: url("../images/xm_hot2.png") no-repeat top left;
+  overflow: hidden;
+  background-size: 100%;
+  position: relative;
+  .yq_lunbo_images{
+    width: 93%;
+    height: 4.33rem;
+    margin: 0.25rem auto;
+    .yq_lunbo_images_top{
+      width: 100%;
+      height: 1.92rem;
+      margin-bottom: 0.08rem;
+      >ul{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        .yq_lunbo_li{
+          width:33%;
+          height: 1.92rem;
+          float: left;
+          margin-right: 0.03rem;
+        }
+        .yq_right{
+          margin-right: 0;
+        }
+      }
+    }
+    .lunbo_images_bottom{
+      width: 100%;
+      height: 2.34rem;
+      .yq_bottom_left{
+        width: 66.3%;
+        height: 100%;
+        float: left;
+        margin-right: 0.03rem;
+      }
+      .yq_bottom_right{
+        width: 33%;
+        height: 100%;
+        background: silver;
+        float: left;
+      }
+    }
+  }
+}
+
+.xm_lunbo{
+  width: 100%;
+  height: 9.35rem;
+  @include bg(#fff);
+  background: url("../images/xm_hot1.png") no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left:100%;
+  top:0.95rem;
+  transition: left 0.8s ease;
+  img{
+    width: 100%;
+  }
+}
+.active{
+  left:0;
+}
+.yq_check{
+  width: 98%;
+  height: 3.1rem;
+ border-bottom: 1px solid #e3e3e3;
+  margin: 0.6rem  auto 0;
+  padding: 0.2rem;
+  .yq_check_top{
+    width: 100%;
+    height: 1rem;
+    position: relative;
+    .yq_check_left{
+      width: 3.23rem;
+      height: 100%;
+      position: absolute;
+      left:0;
+      top:0;
+      .yq_check_tu{
+        width: 0.9rem;
+        height: 0.9rem;
+      }
+      .yq_check_name{
+        position: absolute;
+        top:0;
+        left:0.97rem;
+        width: 1.5rem;
+        height: 100%;
+        h3{
+          font-family: "苹方";
+          font-size: 0.36rem;
+        }
+      }
+      .yq_check_iphone{
+        width: 0.83rem;
+        height: 0.35rem;
+      }
+      .yq_check_zhang{
+        position: absolute;
+        top:0.07rem;
+        right: 0;
+        width: 0.42rem;
+        height: 0.35rem;
+      }
+    }
+    .yq_check_right{
+      width: 1.33rem;
+      height: 100%;
+      position: absolute;
+      right: 0.15rem;
+      top:0;
+      .yq_check_yuan{
+        display: inline-block;
+        width: 0.07rem;
+        height:0.07rem ;
+        border-radius: 50%;
+
+        background:#254987 ;
+      }
+      .yq_check_right_bottom{
+        width: 0.83rem;
+        height: 0.35rem;
+        margin-top: 0.13rem;
+        text-align: right;
+      }
+    }
+  }
+  .yq_title{
+    width: 100%;
+    p{
+      font-size: 0.36rem;
+      font-family: "苹方";
+    }
+  }
+  .yq_name{
+    width: 3.52rem;
+    height: 0.34rem;
+  }
+  .yq_text{
+    margin-top: 0.22rem;
+    width: 100%;
+    p{
+      font-family: '苹方';
+      font-size: 0.29rem;
+      color: #818283;
+    }
+  }
+}
+.tuo {
+  .tuoul {
+    padding-top: 0.20rem;
+    .tuoli {
+      width: 1.52rem;
+      height: 0.58rem;
+      background: #e3e3e3;
+      border-radius: 0.5rem;
+      float: left;
+      margin-left: 0.11rem;
+      position: relative;
+      .yuan {
+        width: 0.06rem;
+        height: 0.06rem;
+        border-radius: 50%;
+        background: #3df1a8;
+        @extend %tb;
+        left: -0.03rem;
+      }
+      .xiao {
+        width: 0.36rem;
+        height: 0.36rem;
+        position: absolute;
+        @extend %tb;
+        left: 0.12rem;
+      }
+      .zhuan {
+        width: 0.36rem;
+        height: 0.36rem;
+        position: absolute;
+        @extend %tb;
+        left: 0.12rem;
+      }
+      h3 {
+        font-size: 0.22rem;
+        color: #9a9a9a;
+        text-align: right;
+        line-height: 0.58rem;
+        margin-right: 0.12rem;
+      }
+    }
+    .right {
+      position: absolute;
+      right: 0.24rem;
+      li {
+        width: 0.58rem;
+        height: 0.58rem;
+        border-radius: 50%;
+        float: left;
+        margin-left: -0.1rem;
+        font-size: 0.22rem;
+        color: #9a9a9a;
+        text-align: center;
+        line-height: 0.58rem;
+      }
+    }
+  }
+  .tuoul .right li:nth-child(4) {
+    background: #2f3236;
+  }
+  $imglist3: '../images/yq-tu10.png', '../images/yq-tu11.png', '../images/yq-tu12.png';
+  @for $n from 1 through 3 {
+    .tuoul .right li:nth-child(#{$n}) {
+      width: 0.64rem;
+      height: 0.64rem;
+      background: url(nth($imglist3,$n)) no-repeat;
+      background-size: contain;
+    }
+  }
+}
+  .xm_check {
+    @include rect(1.25rem, 0.1rem);
+    margin: 0 auto;
+    text-align: justify;
+    &::after {
+      content: '';
+      width: 100%;
+      display: inline-block;
+    }
+    li {
+      display: inline-block;
+      @include circle(0.1rem);
+      margin: 0.3rem 0;
+    }
+    li:nth-child(1) {
+      @include bg(#f92158);
+    }
+    li:nth-child(2) {
+      @include bg(#1fc866);
+    }
+    li:nth-child(3) {
+      @include bg(#5193dd);
+    }
+    li:nth-child(4) {
+      @include bg(#e9f01d);
+    }
+    li:nth-child(5) {
+      @include bg(#f92158);
+    }
+  }
+//底部
+.footer{
+  width:100%;
+  height:1rem;
+  background: #222932;
+  position: fixed;
+  left:0;
+  bottom: 0;
+  z-index: 66;
+  .footul {
+    .footli {
+      float: left;
+    }
+  }
+}
+$imglist4: '../images/wzq.png', '../images/wzq3.png', '../images/wzq1.png', '../images/wzq2.png';
+@for $q from 1 through 4 {
+  .footer .footul .footli:nth-child(#{$q}) {
+    width: 25%;
+    height: 1rem;
+    background: url(nth($imglist4,$q));
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+}
+
+$imglist5: '../images/wzh1.png', '../images/wzh3.png', '../images/wzh2.png', '../images/wzh.png';
+
+@for $m from 1 through 4 {
+  .footer .footul .footli.active:nth-child(#{$m}) {
+    width: 25%;
+    height:1.1rem;
+    background: url(nth($imglist5,$m));
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -0.06rem;
+  }
+}

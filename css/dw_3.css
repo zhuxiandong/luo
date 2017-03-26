@@ -1,0 +1,161 @@
+@charset "UTF-8";
+.d_nav .d_nav_width, .d_nav .d_nav_width .d_width_middle, .d_banner .d_banner_width, .d_content .d_content_width, .d_message .d_message_width, .d_message .d_message_picture, .d_agree .d_agree_width, .d_add .d_add_width {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto; }
+
+@font-face {
+  font-family: '苹方';
+  src: url("../fonts/PingFang Regular.ttf"); }
+
+@font-face {
+  font-family: 'sanfan';
+  src: url("../fonts/SYSTEM SAN FRANCISCO DISPLAY REGULAR.TTF"); }
+
+@font-face {
+  font-family: '苹方 粗';
+  src: url("../fonts/PingFang bold.ttf"); }
+
+body {
+  background: #f6f5f5; }
+
+.d_nav {
+  width: 100%;
+  height: 1rem;
+  background: #2a75ff;
+  position: relative; }
+  .d_nav .d_nav_width {
+    width: 7.02rem;
+    height: 100%; }
+    .d_nav .d_nav_width .d_width_left a {
+      display: block;
+      width: 0.5rem;
+      height: 1rem;
+      background: url(../images/w_1.jpg);
+      background-size: cover;
+      float: left; }
+    .d_nav .d_nav_width .d_width_middle {
+      width: 2.45rem;
+      height: 1rem;
+      background: url(../images/w_24.jpg);
+      background-size: cover; }
+    .d_nav .d_nav_width .d_width_right a {
+      display: block;
+      width: 1.75rem;
+      height: 1rem;
+      background: url(../images/w_25.jpg);
+      background-size: cover;
+      float: right; }
+
+.d_banner {
+  width: 100%;
+  height: 2.08rem;
+  background: url(../images/w_26.jpg);
+  background-size: cover;
+  position: relative; }
+  .d_banner .d_banner_width {
+    width: 5.35rem;
+    height: 1.38rem;
+    background: url(../images/w_27.jpg);
+    background-size: cover;
+    top: 0.7rem; }
+
+.d_content {
+  width: 100%;
+  height: 1.5rem;
+  position: relative; }
+  .d_content .d_content_width {
+    width: 7.02rem;
+    height: 1.5rem;
+    background: url(../images/w_28.jpg);
+    background-size: cover; }
+
+.d_message {
+  width: 100%;
+  height: 0.67rem;
+  margin-bottom: 0.4rem;
+  position: relative; }
+  .d_message .d_message_width {
+    width: 6.3rem;
+    height: 0.67rem;
+    top: 0.53rem; }
+    .d_message .d_message_width .d_message_left {
+      width: 1.12rem;
+      height: 0.67rem;
+      background: url(../images/w_29.jpg);
+      background-size: cover;
+      float: left; }
+    .d_message .d_message_width .d_message_l {
+      background: url(../images/w_31.jpg);
+      background-size: cover; }
+    .d_message .d_message_width .d_message_le {
+      background: url(../images/w_32.jpg);
+      background-size: cover; }
+    .d_message .d_message_width .d_message_lef {
+      background: url(../images/w_33.jpg);
+      background-size: cover; }
+    .d_message .d_message_width .d_message_right input {
+      width: 5.17rem;
+      height: 0.67rem;
+      text-align: left;
+      color: #bbbbbb;
+      font-size: 0.24rem;
+      font-family: '苹方';
+      float: left;
+      border: none;
+      outline: none;
+      background: none; }
+  .d_message .d_message_picture {
+    width: 6.3rem;
+    height: 0.07rem;
+    background: url(../images/w_30.jpg);
+    background-size: cover;
+    top: 1.28rem; }
+
+.d_agree {
+  width: 100%;
+  height: 0.45rem;
+  position: relative; }
+  .d_agree .d_agree_width {
+    width: 6.27rem;
+    height: 0.45rem;
+    top: 0.65rem; }
+    .d_agree .d_agree_width .d_agree_yuan {
+      width: 0.43rem;
+      height: 0.43rem;
+      border-radius: 0.5rem;
+      background: #fff;
+      position: relative;
+      float: left; }
+      .d_agree .d_agree_width .d_agree_yuan .d_agree_yuan_small {
+        width: 0.32rem;
+        height: 0.32rem;
+        border-radius: 0.5rem;
+        background: #2a75ff;
+        position: absolute;
+        left: 0.06rem;
+        top: 0.05rem; }
+      .d_agree .d_agree_width .d_agree_yuan .d_agree_dui {
+        color: #fff;
+        position: absolute;
+        left: 0.12rem;
+        top: 0.05rem;
+        font-size: 0.14rem; }
+    .d_agree .d_agree_width .d_agree_count {
+      font-family: '苹方 粗';
+      font-size: 0.24rem;
+      float: left;
+      line-height: 0.45rem; }
+
+.d_add {
+  width: 100%;
+  height: 0.9rem;
+  position: relative; }
+  .d_add .d_add_width {
+    display: block;
+    width: 6.5rem;
+    height: 0.9rem;
+    top: 1.8rem;
+    background: url(../images/w_34.jpg);
+    background-size: cover; }

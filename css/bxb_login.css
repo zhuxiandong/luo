@@ -1,0 +1,126 @@
+@charset "UTF-8";
+.bxb_img, .bxb_bg, .bxb_content, .bxb_content .login, .bxb_content .sign, .bxb_content .phonelogin, .bxb_content .more, .bxb_content .chat {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+body {
+  background: url(../images/bxb_bg.png);
+  background-size: cover;
+}
+
+.bxb_img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background: url(../images/bxb-img_03.png);
+  background-size: cover;
+  top: 2.5rem;
+}
+
+.bxb_bg {
+  width: 100%;
+  height: 1.28rem;
+  background: url(../images/bxb-yun_03.png);
+  background-size: cover;
+  bottom: 5.19rem;
+}
+
+.bxb_content {
+  width: 100%;
+  height: 5.2rem;
+  background: #f0f0f0;
+  bottom: 0;
+}
+
+.bxb_content .login {
+  width: 4.84rem;
+  height: 0.76rem;
+  background: #5193dd;
+  top: 0.2rem;
+  border-radius: 0.08rem;
+  color: #fff;
+}
+
+.bxb_content .login .title {
+  font-size: 0.3rem;
+  text-align: center;
+}
+
+.bxb_content .login .des {
+  font-size: 0.18rem;
+  text-align: center;
+}
+
+.bxb_content .sign {
+  width: 4.84rem;
+  height: 0.76rem;
+  background: #20d38a;
+  top: 1.28rem;
+  border-radius: 0.08rem;
+  color: #fff;
+  font-family: '苹方';
+}
+
+.bxb_content .sign .title {
+  font-size: 0.3rem;
+  text-align: center;
+}
+
+.bxb_content .sign .des {
+  font-size: 0.18rem;
+  text-align: center;
+}
+
+.bxb_content .phonelogin {
+  width: 100%;
+  height: 0.5rem;
+  top: 2.34rem;
+  color: #4f5e96;
+  text-align: center;
+  line-height: 0.5rem;
+}
+
+.bxb_content .phonelogin a {
+  font-family: 'jiantou';
+}
+
+.bxb_content .more {
+  width: 100%;
+  height: 0.88rem;
+  background: url(../images/bxb-more_03.png);
+  top: 3.22rem;
+  background-size: cover;
+}
+
+.bxb_content .chat {
+  width: 4.04rem;
+  height: 0.56rem;
+  top: 4.04rem;
+}
+
+.bxb_content .chat li {
+  width: 0.56rem;
+  height: 0.56rem;
+  border-radius: 50%;
+  float: left;
+  margin-right: 1.17rem;
+}
+
+.bxb_content .chat li:nth-child(1) {
+  background: url(../images/bxb-chat_07.png);
+  background-size: cover;
+}
+
+.bxb_content .chat li:nth-child(2) {
+  background: url(../images/bxb-chat_09.png);
+  background-size: cover;
+}
+
+.bxb_content .chat li:nth-child(3) {
+  margin-right: 0;
+  background: url(../images/bxb-chat_12.png);
+  background-size: cover;
+}

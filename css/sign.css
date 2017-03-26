@@ -1,0 +1,177 @@
+html {
+  font-size: 100px; }
+
+@media (min-width: 320px) {
+  html {
+    font-size: 42.66667px; } }
+
+@media (min-width: 360px) {
+  html {
+    font-size: 48px; } }
+
+@media (min-width: 375px) {
+  html {
+    font-size: 50px; } }
+
+@media (min-width: 412px) {
+  html {
+    font-size: 54.93333px; } }
+
+@media (min-width: 414px) {
+  html {
+    font-size: 55.2px; } }
+
+@media (min-width: 750px) {
+  html {
+    font-size: 100px; } }
+
+@media (min-width: 1024px) {
+  html {
+    font-size: 136.53333px; } }
+
+body {
+  font-size: 16px; }
+
+.zq_sign_box {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: url("../images/zq_back.png");
+  background-size: cover; }
+  .zq_sign_box .zq_inside_box {
+    width: 7.02rem;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 0.4rem; }
+
+.zq_nav {
+  width: 100%;
+  height: 0.6rem; }
+  .zq_nav a img {
+    width: 0.34rem;
+    height: 0.6rem; }
+
+.zq_pace_box {
+  margin-top: 0.3rem;
+  width: 100%;
+  height: 1.4rem; }
+  .zq_pace_box img {
+    width: 100%; }
+
+.zq_con_box {
+  position: relative;
+  padding-top: 2.15rem;
+  width: 5.85rem;
+  height: 8.64rem;
+  margin: 0.3rem auto;
+  background: url("../images/zq_con.png");
+  background-size: cover; }
+  .zq_con_box .zq_input_box {
+    position: relative;
+    width: 5.58rem;
+    height: 0.8rem;
+    border-radius: 0.4rem;
+    border: 0.01rem solid #aaaaaa;
+    margin: 0.2rem auto; }
+    .zq_con_box .zq_input_box .zq_title1 {
+      position: absolute;
+      top: -0.113rem;
+      left: 0.45rem;
+      width: 1.5rem;
+      height: 0.2rem;
+      background: url("../images/zq_title1.png");
+      background-size: cover; }
+    .zq_con_box .zq_input_box .zq_title2 {
+      position: absolute;
+      top: -0.113rem;
+      left: 0.45rem;
+      width: 1.7rem;
+      height: 0.2rem;
+      background: url("../images/zq_title2.png");
+      background-size: cover; }
+    .zq_con_box .zq_input_box .zq_name_img {
+      float: left;
+      width: 0.8rem;
+      height: 0.8rem;
+      border-radius: 50%; }
+      .zq_con_box .zq_input_box .zq_name_img img {
+        width: 0.45rem;
+        margin: 0.18rem; }
+    .zq_con_box .zq_input_box input {
+      float: left;
+      width: 3.8rem;
+      height: 0.4rem;
+      margin: 0.18rem 0;
+      outline: none;
+      line-height: 0.4rem;
+      border: none;
+      background: none;
+      font-size: 0.22rem; }
+    .zq_con_box .zq_input_box .zq_detection {
+      float: right;
+      margin-right: 0.1rem;
+      width: 0.8rem;
+      height: 100%; }
+      .zq_con_box .zq_input_box .zq_detection img {
+        float: right;
+        margin-top: 0.2rem;
+        width: 0.32rem; }
+      .zq_con_box .zq_input_box .zq_detection .eye_img {
+        margin: 0.3rem 0.05rem; }
+    .zq_con_box .zq_input_box .zq_hint {
+      position: absolute;
+      width: 3.34rem;
+      height: 0.53rem;
+      top: -0.2rem;
+      left: 2.0rem;
+      background: url("../images/zq_hint.png");
+      background-size: cover; }
+  .zq_con_box .zq_password {
+    margin-top: 0.5rem; }
+  .zq_con_box .zq_button {
+    position: absolute;
+    bottom: 0.85rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 2.05rem;
+    height: 0.73rem; }
+    .zq_con_box .zq_button img {
+      width: 2.05rem; }
+
+.zq_secure_box {
+  position: absolute;
+  width: 3.1rem;
+  height: 0.4rem;
+  bottom: -0.34rem;
+  right: 0.4rem; }
+
+.zq_degree_box {
+  width: 100%;
+  height: 0.12rem;
+  border-radius: 0.06rem;
+  border: 0.01rem solid #616161;
+  background: #d4d4d4; }
+  .zq_degree_box .zq_degree.zq_red {
+    height: 0.1rem;
+    background: #f13d3c; }
+  .zq_degree_box .zq_degree.zq_green {
+    height: 0.1rem;
+    background: #24f47c; }
+
+.zq_static {
+  width: 100%;
+  line-height: 0.3rem; }
+  .zq_static span {
+    float: left;
+    display: block;
+    width: 0.24rem;
+    height: 0.24rem;
+    font-size: 0.20rem;
+    line-height: 0.2rem;
+    color: #838383;
+    margin-top: 0.08rem; }
+  .zq_static .span2 {
+    margin-left: 1.2rem; }
+  .zq_static .span3 {
+    float: right; }

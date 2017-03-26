@@ -1,0 +1,26 @@
+.xm_recommend {
+  width: 100%;
+  min-height: 9.2rem;
+  padding: 0 0.24rem;
+  box-sizing: border-box; }
+
+.xm_recom {
+  width: 46%;
+  height: 4.32rem;
+  margin: 0.12rem;
+  float: left;
+  background: url("../images/xm_recom.png");
+  background-size: cover;
+  text-align: center; }
+  .xm_recom img {
+    width: 1.44rem;
+    margin-top: 0.72rem; }
+  .xm_recom img.slice {
+    width: 0.84rem;
+    margin-top: 0; }
+  .xm_recom h5 {
+    font-size: 0.3rem;
+    color: #636363; }
+  .xm_recom p {
+    font-family: 'sanfan';
+    font-size: 0.24rem; }

@@ -1,0 +1,144 @@
+@charset "UTF-8";
+.d_nav .d_nav_width, .d_nav .d_nav_width .d_width_middle, .d_select .d_select_width, .d_recharge_w .d_recharge_width {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto; }
+
+@font-face {
+  font-family: '苹方';
+  src: url("../fonts/PingFang Regular.ttf"); }
+
+@font-face {
+  font-family: 'sanfan';
+  src: url("../fonts/SYSTEM SAN FRANCISCO DISPLAY REGULAR.TTF"); }
+
+body {
+  background: #f6f5f5; }
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.d_nav {
+  width: 100%;
+  height: 1rem;
+  background: #2a75ff;
+  position: relative; }
+  .d_nav .d_nav_width {
+    width: 7.02rem;
+    height: 100%; }
+    .d_nav .d_nav_width .d_width_left a {
+      display: block;
+      width: 0.5rem;
+      height: 1rem;
+      background: url(../images/w_1.jpg);
+      background-size: cover;
+      float: left; }
+    .d_nav .d_nav_width .d_width_middle {
+      width: 2.45rem;
+      height: 1rem;
+      background: url(../images/w_14.jpg);
+      background-size: cover; }
+
+.d_select {
+  width: 100%;
+  height: 1.62rem;
+  position: relative; }
+  .d_select .d_select_width {
+    width: 5.85rem;
+    height: 1.62rem;
+    background: url(../images/w_15.jpg);
+    background-size: cover; }
+
+.d_recharge_w {
+  width: 100%;
+  height: 1.9rem;
+  position: relative;
+  margin-bottom: 0.35rem; }
+  .d_recharge_w .d_recharge_width {
+    display: block;
+    width: 7.02rem;
+    height: 100%;
+    background: #fff;
+    border-radius: 0.1rem;
+    box-shadow: -5px 0 5px #eeeded, 5px 0 5px #eeeded, 0 -5px 5px #eeeded, 0 5px 5px #eeeded; }
+    .d_recharge_w .d_recharge_width .d_recharge_left {
+      width: 2.11rem;
+      height: 1.46rem;
+      background: url(../images/w_16.jpg);
+      background-size: cover;
+      float: left;
+      position: absolute;
+      top: 0.2rem; }
+    .d_recharge_w .d_recharge_width .d_re {
+      background: url(../images/w_18.jpg);
+      background-size: cover; }
+    .d_recharge_w .d_recharge_width .d_recharge_l {
+      background: url(../images/w_21.jpg);
+      background-size: cover; }
+    .d_recharge_w .d_recharge_width .d_recharge_right {
+      width: 4.33rem;
+      height: 1.46rem;
+      position: absolute;
+      top: 0.2rem;
+      left: 2.15rem; }
+      .d_recharge_w .d_recharge_width .d_recharge_right .d_right_top {
+        width: 100%;
+        height: 0.55rem;
+        margin-top: 0.2rem; }
+        .d_recharge_w .d_recharge_width .d_recharge_right .d_right_top .d_top_left {
+          width: 1.67rem;
+          height: 0.55rem;
+          background: url(../images/w_17.jpg);
+          background-size: cover;
+          float: left; }
+        .d_recharge_w .d_recharge_width .d_recharge_right .d_right_top .d_top_le {
+          width: 1.67rem;
+          height: 0.55rem;
+          background: url(../images/w_19.jpg);
+          background-size: cover;
+          float: left; }
+        .d_recharge_w .d_recharge_width .d_recharge_right .d_right_top .d_top_l {
+          width: 1.67rem;
+          height: 0.55rem;
+          background: url(../images/w_22.jpg);
+          background-size: cover;
+          float: left; }
+        .d_recharge_w .d_recharge_width .d_recharge_right .d_right_top .d_top_right {
+          width: 0.69rem;
+          height: 0.38rem;
+          background: #ff7c1c;
+          border-radius: 0.17rem;
+          color: #fff;
+          text-align: center;
+          line-height: 0.38rem;
+          font-family: 'sanfu';
+          font-size: 0.28rem;
+          font-weight: bold;
+          float: left;
+          margin-top: 0.1rem; }
+        .d_recharge_w .d_recharge_width .d_recharge_right .d_right_top .d_top_ri {
+          width: 0.24rem;
+          height: 0.49rem;
+          background: url(../images/w_20.jpg);
+          float: left;
+          background-size: cover; }
+        .d_recharge_w .d_recharge_width .d_recharge_right .d_right_top .d_top_rig {
+          width: 0.8rem;
+          height: 0.4rem;
+          background: #ee1818;
+          border-radius: 0.2rem;
+          text-align: center;
+          line-height: 0.4rem;
+          margin-left: 0.2rem;
+          font-size: 0.16rem;
+          font-style: italic; }
+        .d_recharge_w .d_recharge_width .d_recharge_right .d_right_top .d_top_r {
+          margin-left: 0.2rem; }
+      .d_recharge_w .d_recharge_width .d_recharge_right .d_right_bottom {
+        font-size: 0.22rem;
+        font-family: 'sanfu';
+        margin-top: 0.2rem;
+        color: #000; }

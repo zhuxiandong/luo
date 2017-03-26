@@ -1,0 +1,485 @@
+@import url(col.css);
+.xm_bodybox .xm_photobox .yuyin .hua, .xm_bodybox .xm_photobox .yuyin .shu1, .xm_bodybox .xm_photobox .viewcon .tuo .tuoul .tuoli .yuan, .xm_bodybox .xm_photobox .viewcon .tuo .tuoul .tuoli .xiao, .xm_bodybox .xm_photobox .viewcon .tuo .tuoul .tuoli .zhuan, .xm_bodybox .xm_otherbox .xm_othercon .xm_con1 .tuoul .tuoli .xiao, .xm_bodybox .xm_otherbox .xm_othercon .xm_con1 .tuoul .tuoli .zhuan, .xm_bodybox .xm_otherbox .xm_othercon .xm_con1 .xm_linebox .xm_center {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0; }
+
+.xm_bodybox .xm_photobox .yuyin .change, .xm_bodybox .xm_photobox .viewcon .pji .pj6 .yin .jia, .xm_bodybox .xm_photobox .viewcon .view .play {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto; }
+
+body {
+  background: #f0f0f0; }
+
+.xm_current{
+  width: 94%;
+  height: 0.57rem;
+  margin:0 auto;
+  border-bottom: 0.02rem solid #c1c1c1 ;
+}
+.xm_current .xm_box{
+  width:0.06rem;
+  height: 0.06rem;
+  background: #65fec1;
+  display: inline-block;
+  border-radius: 50%;
+}
+.xm_current .xm_boxres{
+  color: #4a7ddc;
+  font-size: 0.24rem;
+  line-height: 0.57rem;
+  display: inline-block;
+}
+.xm_bodybox {
+  width: 7rem;
+  padding-bottom: 1.6rem;
+  margin: 0.2rem auto 0; }
+  .xm_bodybox .xm_resultsbox {
+    width: 100%;
+    height: 1.9rem; }
+    .xm_bodybox .xm_resultsbox .xm_restitlebox {
+      width: 100%;
+      height: 0.3rem; }
+      .xm_bodybox .xm_resultsbox .xm_restitlebox img {
+        width: 0.29rem;
+        float: left; }
+      .xm_bodybox .xm_resultsbox .xm_restitlebox .xm_restitlefont {
+        font-size: 0.24rem;
+        color: #5d5d5d;
+        float: left;
+        margin-left: 0.05rem;
+        margin-right: 0.1rem; }
+      .xm_bodybox .xm_resultsbox .xm_restitlebox .xm_reseng {
+        font-size: 0.2rem;
+        color: #5d5d5d;
+        float: left; }
+    .xm_bodybox .xm_resultsbox .xm_resconbox {
+      width: 100%;
+      height: 1.65rem;
+      margin-left: -0.15rem;
+      padding-top: 0.35rem;
+      box-sizing: border-box; }
+      .xm_bodybox .xm_resultsbox .xm_resconbox img {
+        width: 1.28rem;
+        float: left; }
+      .xm_bodybox .xm_resultsbox .xm_resconbox .xm_resconfont {
+        width: 3.5rem;
+        height: 100%;
+        margin-left: 0.05rem;
+        float: left; }
+        .xm_bodybox .xm_resultsbox .xm_resconbox .xm_resconfont .xm_contitle {
+          width: 100%;
+          height: 0.35rem; }
+          .xm_bodybox .xm_resultsbox .xm_resconbox .xm_resconfont .xm_contitle .xm_confont {
+            width: 1.28rem;
+            font-size: 0.32rem;
+            color: #5d5d5d;
+            float: left;
+            border-bottom: 1px solid #d4d4d4; }
+          .xm_bodybox .xm_resultsbox .xm_resconbox .xm_resconfont .xm_contitle img {
+            width: 0.25rem;
+            float: left;
+            margin-left: 0.35rem;
+            margin-top: 0.15rem; }
+        .xm_bodybox .xm_resultsbox .xm_resconbox .xm_resconfont .xm_concon {
+          width: 100%;
+          height: 0.40rem;
+          font-size: 0.2rem;
+          color: #626364;
+          margin-top: 0.2rem;
+          box-sizing: border-box;
+          overflow: hidden; }
+        .xm_bodybox .xm_resultsbox .xm_resconbox .xm_resconfont .xm_conbottom {
+          width: 100%;
+          height: 0.25rem; }
+          .xm_bodybox .xm_resultsbox .xm_resconbox .xm_resconfont .xm_conbottom img {
+            width: 0.69rem; }
+    .xm_bodybox .xm_resultsbox .xm_resrightbox {
+      width: 1rem;
+      height: 100%;
+      float: right; }
+      .xm_bodybox .xm_resultsbox .xm_resrightbox .xm_restop {
+        width: 100%;
+        height: 0.1rem; }
+        .xm_bodybox .xm_resultsbox .xm_resrightbox .xm_restop .xm_first {
+          width: 0.06rem;
+          height: 0.06rem;
+          border-radius: 50%;
+          background: #254987;
+          float: left;
+          margin-top: 0.2rem; }
+        .xm_bodybox .xm_resultsbox .xm_resrightbox .xm_restop .xm_second {
+          width: 0.06rem;
+          height: 0.06rem;
+          border-radius: 50%;
+          background: #3df1a8;
+          float: left;
+          margin-left: 0.05rem;
+          margin-right: 0.05rem;
+          margin-top: 0.2rem; }
+        .xm_bodybox .xm_resultsbox .xm_resrightbox .xm_restop .xm_three {
+          font-size: 0.2rem;
+          color: #747474;
+          float: left;
+          margin-top: 0.05rem; }
+      .xm_bodybox .xm_resultsbox .xm_resrightbox .xm_resbottom {
+        width: 100%;
+        height: 0.25rem;
+        margin-top: 0.9rem; }
+        .xm_bodybox .xm_resultsbox .xm_resrightbox .xm_resbottom img {
+          width: 0.83rem; }
+  .xm_bodybox .xm_photobox {
+    width: 100%;
+    height: 4.8rem;
+    margin-top: 0.15rem; }
+    .xm_bodybox .xm_photobox .xm_phototitle {
+      width: 100%;
+      height: 0.5rem; }
+      .xm_bodybox .xm_photobox .xm_phototitle p {
+        font-size: 0.28rem;
+        color: #2f3236;
+        display: inline-block;
+        font-weight: bold;
+        float: left; }
+      .xm_bodybox .xm_photobox .xm_phototitle span {
+        font-size: 0.28rem;
+        color: #64686d;
+        display: inline-block;
+        float: left; }
+      .xm_bodybox .xm_photobox .xm_phototitle div {
+        width: 2px;
+        height: 0.19rem;
+        background: #cdcdcd;
+        float: left;
+        margin-left: 0.15rem;
+        margin-top: 0.15rem; }
+      .xm_bodybox .xm_photobox .xm_phototitle .xm_photo {
+        font-size: 0.16rem;
+        color: #64686d;
+        display: inline-block;
+        float: left;
+        margin-left: 0.12rem;
+        margin-top: 0.08rem; }
+      .xm_bodybox .xm_photobox .xm_phototitle .xm_share {
+        font-size: 0.16rem;
+        color: #2f3236;
+        display: inline-block;
+        font-weight: bold;
+        float: left;
+        margin-top: 0.08rem; }
+    .xm_bodybox .xm_photobox .yuyin {
+      width: 4.06rem;
+      height: 0.35rem;
+      background: #fff;
+      border-radius: 0.5rem;
+      margin-top: 0.16rem;
+      position: relative; }
+      .xm_bodybox .xm_photobox .yuyin .hua {
+        width: 0.24rem;
+        height: 0.22rem;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        left: 0.2rem; }
+      .xm_bodybox .xm_photobox .yuyin .shu1 {
+        width: 0.02rem;
+        height: 0.17rem;
+        background: #ccc;
+        left: 0.55rem; }
+      .xm_bodybox .xm_photobox .yuyin .change {
+        height: 0.15rem;
+        /*background-repeat: no-repeat;
+        background-size: contain;*/
+        position: absolute; }
+      .xm_bodybox .xm_photobox .yuyin h4 {
+        font-size: 0.22rem;
+        text-align: right;
+        margin-right: 0.3rem;
+        color: #999999; }
+      .xm_bodybox .xm_photobox .yuyin .red1 {
+        width: 0.06rem;
+        height: 0.06rem;
+        background: #eb225b;
+        border-radius: 50%;
+        position: absolute;
+        right: 0.12rem;
+        top: 0.12rem; }
+    .xm_bodybox .xm_photobox .viewcon {
+      width: 7rem; }
+      .xm_bodybox .xm_photobox .viewcon .pji {
+        width: 7rem;
+        height: 2.86rem;
+        margin-top: 0.28rem; }
+        .xm_bodybox .xm_photobox .viewcon .pji li {
+          float: left; }
+        .xm_bodybox .xm_photobox .viewcon .pji .pj1 {
+          width: 2.92rem;
+          height: 2.85rem;
+          background: url("../images/w21.png") no-repeat;
+          background-size: cover; }
+        .xm_bodybox .xm_photobox .viewcon .pji .pj2 {
+          width: 1.26rem;
+          height: 1.26rem;
+          background: url("../images/w22.png") no-repeat;
+          background-size: cover;
+          margin-left: 0.07rem; }
+        .xm_bodybox .xm_photobox .viewcon .pji .pj3 {
+          width: 1.26rem;
+          height: 1.26rem;
+          background: url("../images/w26.png") no-repeat;
+          background-size: cover;
+          margin-left: 0.07rem; }
+        .xm_bodybox .xm_photobox .viewcon .pji .pj4 {
+          width: 1.26rem;
+          height: 1.26rem;
+          background: url("../images/w23.png") no-repeat;
+          background-size: cover;
+          margin-left: 0.07rem; }
+        .xm_bodybox .xm_photobox .viewcon .pji .pj5 {
+          width: 2.6rem;
+          height: 1.52rem;
+          background: url("../images/w24.png") no-repeat;
+          background-size: cover;
+          margin-left: 0.07rem;
+          margin-top: 0.08rem; }
+        .xm_bodybox .xm_photobox .viewcon .pji .pj6 {
+          width: 1.25rem;
+          height: 1.53rem;
+          background: url("../images/w25.png") no-repeat;
+          background-size: cover;
+          margin-top: 0.08rem;
+          margin-left: 0.07rem; }
+          .xm_bodybox .xm_photobox .viewcon .pji .pj6 .yin {
+            width: 1.25rem;
+            height: 1.53rem;
+            background: black;
+            opacity: 0.8;
+            position: relative; }
+            .xm_bodybox .xm_photobox .viewcon .pji .pj6 .yin .jia {
+              width: 0.48rem;
+              height: 0.48rem;
+              background: url("../images/w27.png") no-repeat;
+              background-size: contain;
+              position: absolute; }
+      .xm_bodybox .xm_photobox .viewcon .view {
+        width: 7rem;
+        height: 2.92rem;
+        background-size: contain;
+        background: url("../images/w8.png") no-repeat;
+        position: relative; }
+        .xm_bodybox .xm_photobox .viewcon .view .play {
+          width: 0.98rem;
+          height: 0.68rem;
+          background: url("../images/wplay.png") no-repeat;
+          background-size: contain;
+          position: absolute;
+          cursor: pointer; }
+      .xm_bodybox .xm_photobox .viewcon .tuo .tuoul {
+        padding-top: 0.20rem; }
+        .xm_bodybox .xm_photobox .viewcon .tuo .tuoul .tuoli {
+          width: 1.52rem;
+          height: 0.58rem;
+          background: #e3e3e3;
+          border-radius: 0.5rem;
+          float: left;
+          margin-left: 0.11rem;
+          position: relative; }
+          .xm_bodybox .xm_photobox .viewcon .tuo .tuoul .tuoli .yuan {
+            width: 0.06rem;
+            height: 0.06rem;
+            border-radius: 50%;
+            background: #3df1a8;
+            left: -0.03rem; }
+          .xm_bodybox .xm_photobox .viewcon .tuo .tuoul .tuoli .xiao {
+            width: 0.36rem;
+            height: 0.36rem;
+            position: absolute;
+            left: 0.12rem; }
+          .xm_bodybox .xm_photobox .viewcon .tuo .tuoul .tuoli .zhuan {
+            width: 0.36rem;
+            height: 0.36rem;
+            position: absolute;
+            left: 0.12rem; }
+          .xm_bodybox .xm_photobox .viewcon .tuo .tuoul .tuoli h3 {
+            font-size: 0.22rem;
+            color: #9a9a9a;
+            text-align: right;
+            line-height: 0.58rem;
+            margin-right: 0.12rem; }
+        .xm_bodybox .xm_photobox .viewcon .tuo .tuoul .right {
+          position: absolute;
+          right: 0.24rem; }
+          .xm_bodybox .xm_photobox .viewcon .tuo .tuoul .right li {
+            width: 0.58rem;
+            height: 0.58rem;
+            border-radius: 50%;
+            float: left;
+            margin-left: -0.1rem;
+            font-size: 0.22rem;
+            color: #9a9a9a;
+            text-align: center;
+            line-height: 0.58rem; }
+      .xm_bodybox .xm_photobox .viewcon .tuo .tuoul .right li:nth-child(4) {
+        background: #2f3236; }
+      .xm_bodybox .xm_photobox .viewcon .tuo .tuoul .right li:nth-child(1) {
+        width: 0.64rem;
+        height: 0.64rem;
+        background: url("../images/w13.png") no-repeat;
+        background-size: contain; }
+      .xm_bodybox .xm_photobox .viewcon .tuo .tuoul .right li:nth-child(2) {
+        width: 0.64rem;
+        height: 0.64rem;
+        background: url("../images/w14.png") no-repeat;
+        background-size: contain; }
+      .xm_bodybox .xm_photobox .viewcon .tuo .tuoul .right li:nth-child(3) {
+        width: 0.64rem;
+        height: 0.64rem;
+        background: url("../images/w15.png") no-repeat;
+        background-size: contain; }
+      .xm_bodybox .xm_photobox .viewcon .tuo .tuoul .right li:nth-child(4) {
+        width: 0.64rem;
+        height: 0.64rem;
+        background: url("../images/xm_s6.png") no-repeat;
+        background-size: contain; }
+  .xm_bodybox .xm_otherbox {
+    width: 100%;
+    height: 5rem;
+    margin-top: 0.4rem; }
+    .xm_bodybox .xm_otherbox .xm_othertitle {
+      width: 100%;
+      height: 0.45rem;
+      border-bottom: 2px solid #dbdbdb; }
+      .xm_bodybox .xm_otherbox .xm_othertitle p {
+        display: inline-block;
+        font-size: 0.24rem;
+        color: #5d5d5d; }
+      .xm_bodybox .xm_otherbox .xm_othertitle span {
+        font-size: 0.2rem;
+        display: inline-block;
+        margin-top: 0.05rem; }
+    .xm_bodybox .xm_otherbox .xm_othercon {
+      width: 100%;
+      height: 4.4rem;
+      margin-top: 0.3rem; }
+      .xm_bodybox .xm_otherbox .xm_othercon .xm_con1 {
+        width: 3.4rem;
+        height: 4.4rem;
+        background: url("../images/xm_s3.png") no-repeat;
+        background-size: cover;
+        padding: 0.12rem 0.13rem;
+        box-sizing: border-box;
+        margin: 0 0.05rem;
+        float: left; }
+        .xm_bodybox .xm_otherbox .xm_othercon .xm_con1 img {
+          width: 3.2rem; }
+        .xm_bodybox .xm_otherbox .xm_othercon .xm_con1 .tuoul {
+          width: 100%;
+          height: 0.3rem;
+          padding: 0; }
+          .xm_bodybox .xm_otherbox .xm_othercon .xm_con1 .tuoul .tuoli {
+            width: 1rem;
+            float: left;
+            position: relative; }
+            .xm_bodybox .xm_otherbox .xm_othercon .xm_con1 .tuoul .tuoli .xiao {
+              width: 0.25rem;
+              position: absolute; }
+            .xm_bodybox .xm_otherbox .xm_othercon .xm_con1 .tuoul .tuoli .zhuan {
+              width: 0.25rem;
+              position: absolute;
+              left: 0.12rem; }
+            .xm_bodybox .xm_otherbox .xm_othercon .xm_con1 .tuoul .tuoli h3 {
+              font-size: 0.2rem;
+              color: #949494;
+              text-align: right;
+              line-height: 0.3rem; }
+        .xm_bodybox .xm_otherbox .xm_othercon .xm_con1 .xm_confont {
+          font-size: 0.22rem;
+          color: #626364; }
+        .xm_bodybox .xm_otherbox .xm_othercon .xm_con1 .xm_ph {
+          width: 100%;
+          height: 0.4rem; }
+          .xm_bodybox .xm_otherbox .xm_othercon .xm_con1 .xm_ph .xm_left {
+            float: left; }
+            .xm_bodybox .xm_otherbox .xm_othercon .xm_con1 .xm_ph .xm_left img {
+              width: 0.69rem; }
+          .xm_bodybox .xm_otherbox .xm_othercon .xm_con1 .xm_ph .xm_right {
+            float: right; }
+            .xm_bodybox .xm_otherbox .xm_othercon .xm_con1 .xm_ph .xm_right .xm_first {
+              width: 0.06rem;
+              height: 0.06rem;
+              border-radius: 50%;
+              background: #254987;
+              float: left;
+              margin-top: 0.2rem; }
+            .xm_bodybox .xm_otherbox .xm_othercon .xm_con1 .xm_ph .xm_right .xm_second {
+              width: 0.06rem;
+              height: 0.06rem;
+              border-radius: 50%;
+              background: #3df1a8;
+              float: left;
+              margin-left: 0.05rem;
+              margin-right: 0.05rem;
+              margin-top: 0.2rem; }
+            .xm_bodybox .xm_otherbox .xm_othercon .xm_con1 .xm_ph .xm_right .xm_three {
+              font-size: 0.2rem;
+              color: #747474;
+              float: left;
+              margin-top: 0.05rem; }
+        .xm_bodybox .xm_otherbox .xm_othercon .xm_con1 .xm_linebox {
+          width: 100%;
+          height: 0.04rem;
+          margin-top: 0.1rem;
+          position: relative; }
+          .xm_bodybox .xm_otherbox .xm_othercon .xm_con1 .xm_linebox .xm_left {
+            width: 0.04rem;
+            height: 0.04rem;
+            border-radius: 50%;
+            background: #aeaeae;
+            position: absolute;
+            left: 0;
+            top: 0; }
+          .xm_bodybox .xm_otherbox .xm_othercon .xm_con1 .xm_linebox .xm_center {
+            width: 100%;
+            position: absolute;
+            left: 0;
+            height: 0.02rem;
+            background: #aeaeae; }
+          .xm_bodybox .xm_otherbox .xm_othercon .xm_con1 .xm_linebox .xm_right {
+            width: 0.04rem;
+            height: 0.04rem;
+            border-radius: 50%;
+            background: #aeaeae;
+            position: absolute;
+            right: 0;
+            top: 0; }
+        .xm_bodybox .xm_otherbox .xm_othercon .xm_con1 .xm_people {
+          width: 100%;
+          height: 0.3rem;
+          margin-top: 0.05rem; }
+          .xm_bodybox .xm_otherbox .xm_othercon .xm_con1 .xm_people img {
+            width: 0.33rem;
+            float: left; }
+          .xm_bodybox .xm_otherbox .xm_othercon .xm_con1 .xm_people .xm_name {
+            float: left;
+            margin-left: 0.08rem;
+            line-height: 0.3rem; }
+            .xm_bodybox .xm_otherbox .xm_othercon .xm_con1 .xm_people .xm_name p {
+              display: inline-block;
+              font-size: 0.24rem;
+              color: #5c5c5c; }
+            .xm_bodybox .xm_otherbox .xm_othercon .xm_con1 .xm_people .xm_name span {
+              font-size: 0.24rem;
+              color: #727272; }
+          .xm_bodybox .xm_otherbox .xm_othercon .xm_con1 .xm_people .xm_eight {
+            width: 0.25rem;
+            margin-left: 0.15rem;
+            margin-top: 0.06rem; }
+          .xm_bodybox .xm_otherbox .xm_othercon .xm_con1 .xm_people .xm_travel {
+            width: 0.83rem;
+            float: right;
+            margin-top: 0.06rem; }

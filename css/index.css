@@ -1,0 +1,631 @@
+body{
+  padding-bottom: 1.03rem;
+}
+.header .chat, .header .design, .banner .sea .input, .banner .sea .yu_yin, .banner .sea .big, .banner .sea .shu, .con .viewcon .tuo .tuoul .tuoli .yuan, .con .viewcon .tuo .tuoul .tuoli .xiao, .con .viewcon .tuo .tuoul .tuoli .zhuan, .con .yuyin .hua, .con .yuyin .shu1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0; }
+
+.header .title2, .banner .btn {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto; }
+
+.header .title, .banner .biao, .con .viewcon .pji .pj6 .yin .jia, .con .viewcon .view .play, .con .yuyin .change {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto; }
+
+@font-face {
+  font-family: "sanfan";
+  src: url("../fonts/PINGFANG MEDIUM.TTF"); }
+
+@keyframes ri {
+  0% {
+    transform: translate3d(100%, 0, 0); }
+  100% {
+    transform: translate3d(0, 0, 0); } }
+
+@keyframes ro {
+  0% {
+    transform: translate3d(0, 0, 0); }
+  100% {
+    transform: translate3d(-100%, 0, 0); } }
+
+@keyframes li {
+  0% {
+    transform: translate3d(-100%, 0, 0); }
+  100% {
+    transform: translate3d(0, 0, 0); } }
+
+@keyframes lo {
+  0% {
+    transform: translate3d(0, 0, 0); }
+  100% {
+    transform: translate3d(100%, 0, 0); } }
+
+.header {
+  width: 100%;
+  height: 1rem;
+  background: #102E5D;
+  padding: 0rem 0.24rem 0rem 0.24rem;
+  position: relative; }
+  .header .chat {
+    width: 0.56rem;
+    height: 0.56rem; }
+  .header .title {
+    width: 2.58rem;
+    height: 0.21rem; }
+  .header .title2 {
+    width: 2.94rem;
+    height: 0.28rem;
+    bottom: -0.1rem;
+    z-index: 5; }
+  .header .design {
+    width: 0.43rem;
+    height: 0.43rem;
+    right: 0.24rem; }
+
+.banner .li1.ri {
+  display: block;
+  animation: ri 0.8s ease both; }
+
+.banner .li1.ro {
+  display: block;
+  animation: ro 0.8s ease both; }
+
+.banner .li1.li {
+  display: block;
+  animation: li 0.8s ease both; }
+
+.banner .li1.lo {
+  display: block;
+  animation: lo 0.8s ease both; }
+
+.banner {
+  width: 100%;
+  height: 5.2rem;
+  position: relative;
+  overflow: hidden; }
+  .banner .bannerb {
+    width: 100%;
+    height: 100%;
+    position: relative; }
+  .banner .li1 {
+    background: url("../images/w5_03.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 5.2rem;
+    display: none; }
+  .banner .biao {
+    width: 3.12rem;
+    height: 1.45rem;
+    background: url("../images/w9_03.png");
+    background-repeat: no-repeat;
+    background-size: contain; }
+  .banner .btn {
+    width: 0.9rem;
+    height: 0.12rem;
+    bottom: 0.2rem; }
+    .banner .btn .btn1 {
+      float: left;
+      height: 0.08rem;
+      width: 25%;
+      background: url("../images/w6_03.png");
+      background-repeat: no-repeat;
+      background-size: contain; }
+  .banner .xian {
+    padding: 0rem 0.24rem 0rem 0.24rem;
+    width: 100%;
+    height: 0.07rem;
+    position: absolute;
+    bottom: 0; }
+    .banner .xian .img1 {
+      height: 100%;
+      background: url("../images/w8_03.png");
+      background-size: contain;
+      background-repeat: no-repeat; }
+  .banner .sea {
+    width: 100%;
+    padding: 0rem 0.24rem 0rem 0.24rem;
+    height: 0.92rem;
+    background: black;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    opacity: 0.4; }
+    .banner .sea .input {
+      border: none;
+      outline: none;
+      background: none; }
+    .banner .sea .yu_yin {
+      width: 0.23rem;
+      height: 0.3rem;
+      background: url("../images/xm6.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      right: 0.86rem; }
+    .banner .sea .big {
+      width: 0.29rem;
+      height: 0.32rem;
+      background: url("../images/xm2.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      right: 0.34rem; }
+    .banner .sea .shu {
+      width: 0.02rem;
+      height: 0.17rem;
+      background: #48ace5;
+      right: 0.73rem; }
+    .banner .sea .heng {
+      height: 0.02rem;
+      width: 100%;
+      background: url("../images/w10_03.png");
+      position: absolute;
+      bottom: 0.15rem;
+      background-repeat: no-repeat;
+      background-size: contain; }
+
+.banner .li1.active {
+  display: block; }
+
+.banner .btn .btn1.active {
+  width: 25%;
+  height: 0.12rem;
+  background: url("../images/w7_03.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: -0.02rem; }
+
+.nav {
+  width: 100%;
+  height: 3.42rem;
+  background: #222932;
+  padding: 0rem 0.24rem 0rem 0.24rem;
+  overflow: hidden;
+  position: relative; }
+  .nav .navimg {
+    width: 100%;
+    height: 0.57rem;
+    background: url("../images/w11_03.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 0.5rem; }
+  .nav .navul {
+    position: absolute;
+    width: 100%;
+    padding: 0rem 0.24rem 0rem 0.24rem;
+    top: 1.4rem; }
+    .nav .navul .navli {
+      float: left; }
+
+.nav .navul .navli:nth-child(1) {
+  width: 25%;
+  height: 1.78rem;
+  background: url("../images/wq_09.png");
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.nav .navul .navli:nth-child(2) {
+  width: 25%;
+  height: 1.78rem;
+  background: url("../images/wq_07.png");
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.nav .navul .navli:nth-child(3) {
+  width: 25%;
+  height: 1.78rem;
+  background: url("../images/wq_03.png");
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.nav .navul .navli:nth-child(4) {
+  width: 25%;
+  height: 1.78rem;
+  background: url("../images/wq_05.png");
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.nav .navul .navli.active:nth-child(1) {
+  width: 25%;
+  height: 1.94rem;
+  background: url("../images/wh_13.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: -0.06rem; }
+
+.nav .navul .navli.active:nth-child(2) {
+  width: 25%;
+  height: 1.94rem;
+  background: url("../images/wh_05.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: -0.06rem; }
+
+.nav .navul .navli.active:nth-child(3) {
+  width: 25%;
+  height: 1.94rem;
+  background: url("../images/wh_08.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: -0.06rem; }
+
+.nav .navul .navli.active:nth-child(4) {
+  width: 25%;
+  height: 1.94rem;
+  background: url("../images/wh_03.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: -0.06rem; }
+
+.con {
+  width: 100%;
+  min-height: 13rem;
+  background: #f2f2f2;
+  padding: 0rem 0.24rem 0rem 0.24rem; }
+  .con .con_header {
+    position: relative;
+    padding-top: 0.46rem; }
+    .con .con_header .bon {
+      width: 1.2rem;
+      height: 1.2rem; }
+    .con .con_header .con_hea .tou {
+      width: 0.96rem;
+      height: 0.96rem;
+      background: red;
+      overflow: hidden;
+      position: absolute;
+      top: 0.6rem;
+      left: 0.12rem; }
+      .con .con_header .con_hea .tou img {
+        width: 0.96rem;
+        height: 0.96rem;
+        background-size: cover;
+        background-repeat: no-repeat; }
+    .con .con_header .con_hea .name {
+      width: 1.28rem;
+      height: 0.24rem;
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: absolute;
+      top: 0.6rem;
+      left: 1.6rem; }
+    .con .con_header .con_hea .hash {
+      width: 0.3rem;
+      height: 0.24rem;
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: absolute;
+      top: 0.6rem;
+      left: 3.6rem; }
+    .con .con_header .con_hea .phone {
+      width: 0.8rem;
+      height: 0.3rem;
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: absolute;
+      top: 1.2rem;
+      left: 1.6rem; }
+    .con .con_header .con_hea .home {
+      width: 0.86rem;
+      height: 0.26rem;
+      background-size: contain;
+      background-repeat: no-repeat;
+      position: absolute;
+      top: 1.2rem;
+      right: 0.24rem; }
+    .con .con_header .con_hea .xian {
+      width: 1.16rem;
+      height: 0.02rem;
+      background: #d4d4d4;
+      position: absolute;
+      top: 0.9rem;
+      left: 1.6rem; }
+    .con .con_header .con_hea .h4 {
+      position: absolute;
+      top: 0.88rem;
+      left: 1.6rem;
+      color: #626364;
+      font-size: 0.22rem; }
+    .con .con_header .con_hea .time {
+      width: 1.3rem;
+      height: 0.24rem;
+      position: absolute;
+      right: 0.24rem;
+      top: 0.6rem; }
+      .con .con_header .con_hea .time li {
+        float: left;
+        margin-left: 0.08rem;
+        color: #626364;
+        font-size: 0.22rem; }
+      .con .con_header .con_hea .time .green {
+        width: 0.06rem;
+        height: 0.06rem;
+        background: #254987;
+        border-radius: 50%;
+        margin-top: 0.1rem; }
+      .con .con_header .con_hea .time .red {
+        width: 0.06rem;
+        height: 0.06rem;
+        background: #3DF1A8;
+        border-radius: 50%;
+        margin-top: 0.1rem; }
+      .con .con_header .con_hea .time .time1 {
+        margin-left: 0.2rem; }
+  .con .viewcon {
+    width: 7rem; }
+    .con .viewcon .pji {
+      width: 7rem;
+      height: 2.86rem;
+      margin-top: 0.28rem; }
+      .con .viewcon .pji li {
+        float: left; }
+      .con .viewcon .pji .pj1 {
+        width: 2.92rem;
+        height: 2.85rem;
+        background: url("../images/w21.png");
+        background-repeat: no-repeat;
+        background-size: cover; }
+      .con .viewcon .pji .pj2 {
+        width: 1.26rem;
+        height: 1.26rem;
+        background: url("../images/w22.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: 0.07rem; }
+      .con .viewcon .pji .pj3 {
+        width: 1.26rem;
+        height: 1.26rem;
+        background: url("../images/w26.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: 0.07rem; }
+      .con .viewcon .pji .pj4 {
+        width: 1.26rem;
+        height: 1.26rem;
+        background: url("../images/w23.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: 0.07rem; }
+      .con .viewcon .pji .pj5 {
+        width: 2.6rem;
+        height: 1.52rem;
+        background: url("../images/w24.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: 0.07rem;
+        margin-top: 0.08rem; }
+      .con .viewcon .pji .pj6 {
+        width: 1.25rem;
+        height: 1.53rem;
+        background: url("../images/w25.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 0.08rem;
+        margin-left: 0.07rem; }
+        .con .viewcon .pji .pj6 .yin {
+          width: 1.25rem;
+          height: 1.53rem;
+          background: black;
+          opacity: 0.8;
+          position: relative; }
+          .con .viewcon .pji .pj6 .yin .jia {
+            width: 0.48rem;
+            height: 0.48rem;
+            background: url("../images/w27.png");
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute; }
+    .con .viewcon .view {
+      width: 7rem;
+      height: 2.92rem;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background: url("../images/w8.png");
+      position: relative; }
+      .con .viewcon .view .play {
+        width: 0.98rem;
+        height: 0.68rem;
+        background: url("../images/wplay.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        cursor: pointer; }
+    .con .viewcon .tuo .tuoul {
+      padding-top: 0.20rem; }
+      .con .viewcon .tuo .tuoul .tuoli {
+        width: 1.52rem;
+        height: 0.58rem;
+        background: #e3e3e3;
+        border-radius: 0.5rem;
+        float: left;
+        margin-left: 0.11rem;
+        position: relative; }
+        .con .viewcon .tuo .tuoul .tuoli .yuan {
+          width: 0.06rem;
+          height: 0.06rem;
+          border-radius: 50%;
+          background: #3df1a8;
+          left: -0.03rem; }
+        .con .viewcon .tuo .tuoul .tuoli .xiao {
+          width: 0.36rem;
+          height: 0.36rem;
+          position: absolute;
+          left: 0.12rem; }
+        .con .viewcon .tuo .tuoul .tuoli .zhuan {
+          width: 0.36rem;
+          height: 0.36rem;
+          position: absolute;
+          left: 0.12rem; }
+        .con .viewcon .tuo .tuoul .tuoli h3 {
+          font-size: 0.22rem;
+          color: #9a9a9a;
+          text-align: right;
+          line-height: 0.58rem;
+          margin-right: 0.12rem; }
+      .con .viewcon .tuo .tuoul .right {
+        position: absolute;
+        right: 0.24rem; }
+        .con .viewcon .tuo .tuoul .right li {
+          width: 0.58rem;
+          height: 0.58rem;
+          border-radius: 50%;
+          float: left;
+          margin-left: -0.1rem;
+          font-size: 0.22rem;
+          color: #9a9a9a;
+          text-align: center;
+          line-height: 0.58rem; }
+  .con .line {
+    height: 0.04rem;
+    background: url("../images/wline.png");
+    margin-top: 0.8rem;
+    background-size: contain;
+    background-repeat: no-repeat; }
+  .con .photo {
+    width: 2.62rem;
+    height: 0.39rem;
+    background: url("../images/w18.png");
+    background-repeat: no-repeat;
+    background-size: contain; }
+  .con .yuyin {
+    width: 4.06rem;
+    height: 0.35rem;
+    background: #fff;
+    border-radius: 0.5rem;
+    margin-top: 0.16rem;
+    position: relative; }
+    .con .yuyin .hua {
+      width: 0.24rem;
+      height: 0.22rem;
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: absolute;
+      left: 0.2rem; }
+    .con .yuyin .shu1 {
+      width: 0.02rem;
+      height: 0.17rem;
+      background: #ccc;
+      left: 0.55rem; }
+    .con .yuyin .change {
+      width: 2.25rem;
+      height: 0.15rem;
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: absolute; }
+    .con .yuyin h4 {
+      font-size: 0.22rem;
+      text-align: right;
+      margin-right: 0.3rem;
+      color: #999999; }
+    .con .yuyin .red1 {
+      width: 0.06rem;
+      height: 0.06rem;
+      background: #eb225b;
+      border-radius: 50%;
+      position: absolute;
+      right: 0.12rem;
+      top: 0.12rem; }
+
+.tuoul .right li:nth-child(4) {
+  background: #2f3236; }
+
+.tuoul .right li:nth-child(1) {
+  width: 0.64rem;
+  height: 0.64rem;
+  background: url("../images/w13.png");
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.tuoul .right li:nth-child(2) {
+  width: 0.64rem;
+  height: 0.64rem;
+  background: url("../images/w14.png");
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.tuoul .right li:nth-child(3) {
+  width: 0.64rem;
+  height: 0.64rem;
+  background: url("../images/w15.png");
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.footer {
+  width: 100%;
+  height: 1rem;
+  background: #222932;
+  position: fixed;
+  top: 12.31rem; }
+  .footer .footul .footli {
+    float: left; }
+
+.footer .footul .footli:nth-child(1) {
+  width: 25%;
+  height: 1rem;
+  background: url("../images/wzq.png");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.footer .footul .footli:nth-child(2) {
+  width: 25%;
+  height: 1rem;
+  background: url("../images/wzq3.png");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.footer .footul .footli:nth-child(3) {
+  width: 25%;
+  height: 1rem;
+  background: url("../images/wzq1.png");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.footer .footul .footli:nth-child(4) {
+  width: 25%;
+  height: 1rem;
+  background: url("../images/wzq2.png");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.footer .footul .footli.active:nth-child(1) {
+  width: 25%;
+  height: 1.1rem;
+  background: url("../images/wzh1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: -0.06rem; }
+
+.footer .footul .footli.active:nth-child(2) {
+  width: 25%;
+  height: 1.1rem;
+  background: url("../images/wzh3.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: -0.06rem; }
+
+.footer .footul .footli.active:nth-child(3) {
+  width: 25%;
+  height: 1.1rem;
+  background: url("../images/wzh2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: -0.06rem; }
+
+.footer .footul .footli.active:nth-child(4) {
+  width: 25%;
+  height: 1.1rem;
+  background: url("../images/wzh.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: -0.06rem; }

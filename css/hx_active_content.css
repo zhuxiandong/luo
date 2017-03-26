@@ -1,0 +1,453 @@
+@charset "UTF-8";
+html {
+  font-size: 100px; }
+
+@media (min-width: 320px) {
+  html {
+    font-size: 42.66667px; } }
+
+@media (min-width: 360px) {
+  html {
+    font-size: 48px; } }
+
+@media (min-width: 375px) {
+  html {
+    font-size: 50px; } }
+
+@media (min-width: 412px) {
+  html {
+    font-size: 54.93333px; } }
+
+@media (min-width: 414px) {
+  html {
+    font-size: 55.2px; } }
+
+@media (min-width: 750px) {
+  html {
+    font-size: 100px; } }
+
+@media (min-width: 1024px) {
+  html {
+    font-size: 136.53333px; } }
+
+body {
+  font-size: 16px; }
+
+.hx_header .hx_title, .hx_goods .hx_flower .hx_flowerImg, .hx_goods .hx_flower .hx_introduce, .hx_goods .hx_flower .hx_golds {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto; }
+
+.hx_volBox .hx_vol img, .hx_volBox .hx_add img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto; }
+
+body {
+  background-color: #f1f1f1; }
+
+.hx_header {
+  width: 100%;
+  height: 0.9rem;
+  background-color: #083368;
+  padding: 0.34rem 0.24rem 0 0.24rem; }
+  .hx_header .hx_left {
+    display: block;
+    float: left;
+    width: 0.2rem;
+    height: 0.44rem;
+    background: url("../images/hx_left.png") no-repeat center center;
+    background-size: contain; }
+  .hx_header .hx_title {
+    width: 1.53rem;
+    height: 0.44rem;
+    background: url("../images/hx_content.png") no-repeat center center;
+    background-size: contain; }
+  .hx_header .hx_right {
+    display: block;
+    width: 0.47rem;
+    height: 0.44rem;
+    background: url("../images/hx_collect.png") no-repeat center center;
+    float: right;
+    background-size: contain; }
+
+.hx_user {
+  width: 7.02rem;
+  height: 1.6rem;
+  margin: 0 auto;
+  padding: 0.3rem 0; }
+  .hx_user .hx_headImgBottom {
+    float: left;
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid #fff;
+    background-color: #ececec;
+    box-shadow: 0 0 8px #ccc;
+    transform: rotate(15deg); }
+    .hx_user .hx_headImgBottom .hx_headImg {
+      width: 1rem;
+      height: 1rem;
+      border: 1px solid #fff;
+      background-color: #e3e3e3;
+      box-shadow: 0 0 8px #ccc;
+      transform: rotate(-15deg); }
+      .hx_user .hx_headImgBottom .hx_headImg > img {
+        width: 100%; }
+  .hx_user .hx_userInform {
+    float: left;
+    margin-left: 0.3rem; }
+    .hx_user .hx_userInform .hx_userName {
+      width: 5rem;
+      overflow: hidden; }
+      .hx_user .hx_userInform .hx_userName > div {
+        float: left; }
+        .hx_user .hx_userInform .hx_userName > div > .hx_name {
+          font-size: 0.32rem;
+          color: #5c5c5c; }
+        .hx_user .hx_userInform .hx_userName > div > .hx_line {
+          width: 1rem;
+          height: 1px;
+          background-color: #626364; }
+      .hx_user .hx_userInform .hx_userName > .hx_ranking {
+        width: 0.4rem;
+        height: 0.4rem;
+        background: url("../images/hx_bg.png") no-repeat center center;
+        background-size: cover;
+        line-height: 0.4rem;
+        text-align: center;
+        color: #fff;
+        font-size: 0.12rem;
+        float: left;
+        margin-left: 0.5rem; }
+      .hx_user .hx_userInform .hx_userName > .hx_timeBox {
+        float: right;
+        width: 1.5rem; }
+        .hx_user .hx_userInform .hx_userName > .hx_timeBox > .hx_point1 {
+          width: 8px;
+          height: 8px;
+          border-radius: 50%;
+          background-color: #254987;
+          float: left;
+          margin-left: 0.2rem;
+          margin-top: 0.2rem; }
+        .hx_user .hx_userInform .hx_userName > .hx_timeBox > .hx_point2 {
+          width: 8px;
+          height: 8px;
+          border-radius: 50%;
+          background-color: #3fdba1;
+          float: left;
+          margin-left: 0.1rem;
+          margin-top: 0.2rem; }
+        .hx_user .hx_userInform .hx_userName > .hx_timeBox > .hx_time {
+          font-size: 0.22rem;
+          color: #747474;
+          float: right;
+          line-height: 0.62rem; }
+    .hx_user .hx_userInform .hx_userWord {
+      width: 5rem;
+      font-size: 0.22rem;
+      color: #626364; }
+
+.hx_storyBox {
+  width: 7.02rem;
+  height: 2.2rem;
+  margin: 0 auto;  }
+  .hx_storyBox .hx_title > span:nth-child(1), .hx_storyBox .hx_title span:nth-child(3) {
+    color: #747474;
+    font-size: 0.28rem;
+    font-family: 'PingFang SC Bold'; }
+  .hx_storyBox .hx_title > span:nth-child(2) {
+    color: #b2b2b2;
+    font-size: 0.28rem;
+    font-family: 'PingFang SC Bold'; }
+  .hx_storyBox .hx_title > span:nth-child(4) {
+    color: #a7a7a7;
+    font-size: 0.24rem;
+    font-family: 'PingFang SC Regular';
+    margin-left: 0.2rem; }
+  .hx_storyBox .hx_dashLine {
+    width: 2.15rem;
+    height: 1px;
+    background: url("../images/hx_dashLine.png") no-repeat center center;
+    background-size: cover; }
+  .hx_storyBox .hx_enTitle {
+    font-size: 0.18rem;
+    font-family: "微软雅黑", "Microsoft YaHei", sans-serif;
+    color: #a5a5a5; }
+  .hx_storyBox .hx_content {
+    font-family: 'PingFang SC Regular';
+    font-size: 0.24rem;
+    color: #5b5b5b;
+    margin-top: 0.2rem; }
+
+.hx_goldBox {
+  width: 100%;
+  height: 3rem;
+  margin: 0 auto; }
+  .hx_goldBox .hx_zan {
+    width: 100%;
+    height: 0.6rem;
+    background-color: #fff;
+    box-shadow: 0 0 8px #ccc;
+    border-radius: 3px;
+    padding: 0 0.24rem;
+    position: relative; }
+    .hx_goldBox .hx_zan .hx_blue {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 0.24rem;
+      height: 0.6rem;
+      background-color: #167ad8; }
+    .hx_goldBox .hx_zan .hx_word {
+      width: 7.02rem;
+      height: 0.6rem;
+      margin: 0 auto; }
+    .hx_goldBox .hx_zan .hx_goods {
+      width: 7.02rem;
+      height: 2.4rem;
+      margin: 0 auto; }
+
+.hx_word .hx_shang {
+  line-height: 0.6rem;
+  font-size: 0.3rem;
+  font-family: "PingFang SC Regular";
+  color: #5b5b5b;
+  float: left; }
+
+.hx_word .hx_gold {
+  float: right;
+  width: 3rem;
+  height: 0.6rem; }
+  .hx_word .hx_gold .hx_iHave {
+    float: left;
+    font-size: 0.24rem;
+    font-family: 'PingFang SC Regular';
+    color: #5b5b5b;
+    line-height: 0.6rem; }
+  .hx_word .hx_gold img {
+    width: 0.28rem;
+    margin-top: 0.18rem;
+    margin-left: 0.1rem;
+    float: left; }
+  .hx_word .hx_gold .hx_num {
+    float: left;
+    font-size: 0.24rem;
+    font-family: 'SanFranciscoDisplay Regular';
+    color: #e3d609;
+    line-height: 0.6rem;
+    margin-left: 0.1rem; }
+  .hx_word .hx_gold .hx_chongzhi {
+    width: 1.2rem;
+    height: 0.44rem;
+    border-radius: 0.22rem;
+    border: 1px solid #167ad8;
+    line-height: 0.44rem;
+    color: #167ad8;
+    float: left;
+    margin-top: 0.08rem;
+    margin-left: 0.4rem;
+    text-align: center;
+    position: relative; }
+    .hx_word .hx_gold .hx_chongzhi .hx_hot {
+      display: block;
+      width: 0.8rem;
+      height: 0.22rem;
+      border-radius: 0.11rem;
+      background-color: #ea0e32;
+      color: #fff;
+      font-size: 0.12rem;
+      line-height: 0.22rem;
+      text-align: center;
+      position: absolute;
+      top: -0.08rem;
+      left: -0.3rem; }
+
+.hx_goods .hx_flower {
+  position: relative;
+  width: 33.333%;
+  height: 100%;
+  float: left; }
+  .hx_goods .hx_flower .hx_flowerImg {
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 0.05rem;
+    background-color: #fff;
+    border: 0.05rem solid #fff;
+    top: 0.4rem; }
+    .hx_goods .hx_flower .hx_flowerImg img {
+      width: 100%; }
+  .hx_goods .hx_flower .hx_introduce {
+    text-align: center;
+    top: 1.8rem; }
+    .hx_goods .hx_flower .hx_introduce .hx_name {
+      font-size: 0.24rem;
+      color: #c90202;
+      font-family: 'PingFang SC Regular'; }
+    .hx_goods .hx_flower .hx_introduce .hx_num {
+      font-size: 0.2rem;
+      color: #a2a2a2;
+      font-family: 'PingFang SC Regular';
+      margin-left: 0.15rem; }
+    .hx_goods .hx_flower .hx_introduce .hx_car {
+      color: #021ec9; }
+    .hx_goods .hx_flower .hx_introduce .hx_plan {
+      color: #2c2c2c; }
+  .hx_goods .hx_flower .hx_golds {
+    text-align: center;
+    top: 2.1rem; }
+    .hx_goods .hx_flower .hx_golds img {
+      width: 0.27rem; }
+    .hx_goods .hx_flower .hx_golds .hx_num {
+      font-size: 0.24rem;
+      color: #e3d609;
+      font-family: 'SanFranciscoDisplay Regular';
+      margin-left: 0.15rem; }
+
+.hx_commentBox {
+  width: 7.02rem;
+  height: 2.7rem;
+  margin: 0.4rem auto; }
+  .hx_commentBox .hx_title {
+    height: 0.3rem;
+    overflow: hidden; }
+    .hx_commentBox .hx_title .hx_comment {
+      color: #474747;
+      font-family: 'PingFang SC Regular';
+      font-size: 0.24rem;
+      float: left; }
+    .hx_commentBox .hx_title .hx_point {
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+      float: left;
+      margin-left: 0.08rem;
+      background-color: #1de1cc;
+      margin-top: 0.15rem; }
+    .hx_commentBox .hx_title .hx_point.hx_point2 {
+      background-color: #ef0f3e; }
+  .hx_commentBox .hx_enTitle1 {
+    width: 7.02rem;
+    color: #9f9f9f;
+    font-size: 0.18rem;
+    font-family: 'SanFranciscoDisplay Regular'; }
+  .hx_commentBox .hx_line {
+    width: 7.02rem;
+    height: 2px;
+    background: url("../images/hx_line1.png") no-repeat center center;
+    background-size: cover; }
+  .hx_commentBox .hx_person {
+    width: 7.02rem;
+    height: 2rem;
+    background-color: #fff;
+    box-shadow: 0 0 8px #ccc;
+    margin: 0.05rem auto;
+    border-radius: 5px;
+    padding-top: 0.1rem;
+    padding-left: 0.1rem; }
+    .hx_commentBox .hx_person .hx_personInform {
+      width: 7.02rem;
+      height: 0.67rem; }
+      .hx_commentBox .hx_person .hx_personInform img {
+        width: 0.67rem;
+        height: 0.67rem;
+        border-radius: 50%;
+        float: left; }
+      .hx_commentBox .hx_person .hx_personInform p {
+        float: left;
+        line-height: 0.67rem;
+        margin-left: 0.2rem;
+        float: left;
+        color: #404040;
+        font-size: 0.24rem;
+        font-family: "SanFranciscoDisplay Light"; }
+      .hx_commentBox .hx_person .hx_personInform .hx_dengji {
+        width: 0.4rem;
+        height: 0.4rem;
+        background: url("../images/hx_bg.png") no-repeat center center;
+        background-size: cover;
+        float: left;
+        margin-top: 0.18rem;
+        margin-left: 0.13rem;
+        line-height: 0.4rem;
+        text-align: center;
+        color: #fff;
+        font-size: 0.12rem; }
+    .hx_commentBox .hx_person .hx_content {
+      width: 6.5rem;
+      height: 0.6rem;
+      margin: 0.1rem auto;
+      color: #828282;
+      font-size: 0.24rem; }
+    .hx_commentBox .hx_person .hx_positionBox {
+      width: 6.5rem;
+      height: 0.2rem;
+      margin: 0.2rem auto; }
+      .hx_commentBox .hx_person .hx_positionBox .hx_position {
+        float: left; }
+        .hx_commentBox .hx_person .hx_positionBox .hx_position img {
+          width: 0.2rem;
+          float: left; }
+        .hx_commentBox .hx_person .hx_positionBox .hx_position span {
+          float: left;
+          margin-left: 0.1rem;
+          color: #a9a9a9;
+          font-family: 'SanFranciscoDisplay Light';
+          font-size: 0.18rem;
+          line-height: 0.3rem; }
+      .hx_commentBox .hx_person .hx_positionBox .hx_update {
+        float: right; }
+        .hx_commentBox .hx_person .hx_positionBox .hx_update img {
+          width: 0.2rem;
+          float: left;
+          margin-top: 0.05rem; }
+        .hx_commentBox .hx_person .hx_positionBox .hx_update span {
+          float: left;
+          margin-left: 0.1rem;
+          color: #a9a9a9;
+          font-family: 'SanFranciscoDisplay Light';
+          font-size: 0.18rem;
+          line-height: 0.3rem; }
+
+.hx_volBox {
+  width: 7.02rem;
+  height: 0.96rem;
+  margin: 0 auto; }
+  .hx_volBox .hx_vol {
+    width: 0.96rem;
+    height: 0.96rem;
+    border-radius: 50%;
+    box-shadow: 0 0 8px #ccc;
+    float: left;
+    background-color: #fff;
+    position: relative; }
+    .hx_volBox .hx_vol img {
+      width: 0.33rem; }
+  .hx_volBox input {
+    width: 5rem;
+    height: 0.96rem;
+    border-radius: 0.48rem;
+    box-shadow: 0 0 8px #ccc;
+    float: left;
+    background-color: #fff;
+    outline: none;
+    line-height: 0.96rem;
+    font-size: 0.24rem;
+    padding: 0 0.2rem;
+    border: 0;
+    margin-left: 0.05rem; }
+  .hx_volBox .hx_add {
+    width: 0.96rem;
+    height: 0.96rem;
+    border-radius: 50%;
+    box-shadow: 0 0 8px #ccc;
+    float: left;
+    margin-left: 0.05rem;
+    background-color: #fff;
+    position: relative; }
+    .hx_volBox .hx_add img {
+      width: 0.38rem; }

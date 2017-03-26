@@ -1,0 +1,669 @@
+@charset "UTF-8";
+.xm_search .xm_guan, .xm_search .xm_voice, .xm_search .xm_find, .xm_search .xm_ge, .xm_show .xm_avta, .tuo .tuoul .tuoli .yuan, .tuo .tuoul .tuoli .xiao, .tuo .tuoul .tuoli .zhuan {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0; }
+
+.xm_search .xm_xian {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto; }
+
+.xm_work li .xm_yuan img, .cate li .bei {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto; }
+
+body {
+  background-color: #f1f1f1; }
+
+.xm_header {
+  width: 100%;
+  height: 0.9rem;
+  background-color: #083368;
+  position: relative;
+  text-align: center; }
+  .xm_header .xm_jian {
+    width: 0.2rem;
+    height: 0.37rem;
+    position: absolute;
+    left: 0.24rem;
+    bottom: 0.16rem; }
+  .xm_header .xm_title {
+    color: #fff;
+    line-height: 1.1rem;
+    font-size: 0.36rem;
+    letter-spacing: 0.08rem; }
+
+.xm_search {
+  width: 100%;
+  height: 0.7rem;
+  background-color: #012169;
+  padding: 0 0.47rem;
+  position: relative; }
+  .xm_search input {
+    width: 73%;
+    outline: none;
+    border: none;
+    margin-top: 0.16rem;
+    background-color: transparent;
+    font-size: 0.2rem;
+    color: #fff; }
+  .xm_search .xm_guan {
+    width: 0.12rem;
+    height: 0.12rem;
+    right: 2rem; }
+  .xm_search .xm_voice {
+    right: 1.58rem;
+    width: 0.23rem;
+    height: 0.3rem; }
+  .xm_search .xm_find {
+    width: 0.3rem;
+    height: 0.3rem;
+    right: 0.60rem; }
+  .xm_search .xm_xian {
+    width: 93%;
+    height: 0.03rem;
+    bottom: 0.12rem;
+    background-color: #fff; }
+  .xm_search .xm_ge {
+    width: 0.01rem;
+    height: 0.14rem;
+    background-color: #48ace5;
+    right: 1.2rem; }
+
+.xm_content {
+  width: 100%;
+  padding: 0 0.24rem; }
+
+.xm_work {
+  width: 100%;
+  height: 0.97rem; }
+  .xm_work li {
+    width: 33.333%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    position: relative; }
+    .xm_work li .xm_yuan {
+      width: 0.45rem;
+      height: 0.45rem;
+      border-radius: 50%;
+      background-color: #5293dc;
+      line-height: 0.97rem;
+      margin-left: 0.21rem;
+      text-align: center;
+      position: relative;
+      margin-top: 0.26rem;
+      float: left; }
+      .xm_work li .xm_yuan img {
+        width: 0.2rem;
+        height: 0.17rem; }
+    .xm_work li .fen {
+      width: 0.03rem;
+      height: 0.33rem;
+      margin-left: 0.07rem;
+      float: left;
+      margin-top: 0.32rem; }
+    .xm_work li .choose {
+      width: 1.16rem;
+      height: 0.51rem;
+      float: left;
+      margin-left: 0.07rem;
+      margin-top: 0.24rem;
+      font-size: 0.20rem;
+      color: #636363;
+      text-align: left;
+      position: relative; }
+      .xm_work li .choose div {
+        display: inline-block;
+        position: absolute;
+        left: 0;
+        top: 0; }
+      .xm_work li .choose .ying {
+        height: 0.16rem;
+        position: absolute;
+        left: 0;
+        bottom: 0; }
+  .xm_work li:nth-child(1) {
+    background: url("../images/xmb.png");
+    background-size: cover; }
+  .xm_work li:nth-child(2) {
+    background: url("../images/xmb.png");
+    background-size: cover; }
+    .xm_work li:nth-child(2) .xm_yuan {
+      background-color: #f92158;
+      margin-left: 0.47rem; }
+  .xm_work li:nth-child(3) .xm_yuan {
+    background-color: #1fc866; }
+  .xm_work li:nth-child(3) .ying {
+    height: 0.14rem; }
+
+.xm_xia {
+  width: 100%;
+  height: 0.02rem;
+  background-color: #d5d5d5;
+  position: relative; }
+  .xm_xia span {
+    width: 0.04rem;
+    height: 0.04rem;
+    border-radius: 50%;
+    background-color: #939393; }
+  .xm_xia span:nth-child(1) {
+    position: absolute;
+    left: 0;
+    top: -0.01rem; }
+  .xm_xia span:nth-child(2) {
+    position: absolute;
+    right: 0;
+    top: -0.01rem; }
+
+.xm_cate {
+  width: 100%;
+  height: 1.05rem;
+  background: url("../images/xmb2.png");
+  background-size: cover; }
+
+.cate {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto; }
+  .cate li {
+    width: 33.33%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    position: relative; }
+    .cate li .bei {
+      width: 1.85rem;
+      height: 0.6rem;
+      margin: 0.2rem auto 0;
+      vertical-align: middle;
+      background: url("../images/xm12.png");
+      background-size: cover; }
+      .cate li .bei .biao {
+        width: 0.22rem;
+        height: 0.22rem;
+        float: left;
+        margin-left: 0.18rem;
+        margin-top: 0.2rem; }
+      .cate li .bei .biao1 {
+        width: 0.22rem;
+        height: 0.27rem;
+        float: left;
+        margin-left: 0.18rem;
+        margin-top: 0.18rem; }
+      .cate li .bei .biao2 {
+        width: 0.22rem;
+        height: 0.27rem;
+        float: left;
+        margin-left: 0.18rem;
+        margin-top: 0.18rem; }
+      .cate li .bei div {
+        font-size: 0.24rem;
+        line-height: 0.6rem;
+        color: #fff; }
+
+.xm_history {
+  width: 100%;
+  height: 0.84rem;
+  padding: 0.22rem 0.24rem; }
+
+.xm_hc {
+  width: 100%; }
+  .xm_hc span {
+    font-size: 0.3rem;
+    color: #636363; }
+  .xm_hc .line {
+    display: inline;
+    width: 0.03rem;
+    height: 0.25rem;
+    padding-top: 0.02rem; }
+  .xm_hc .title {
+    display: inline;
+    width: 2.83rem; }
+  .xm_hc .clear {
+    width: 2rem;
+    height: 0.3rem;
+    background-color: #dfdfdf;
+    display: inline;
+    float: right;
+    margin-top: 0.15rem;
+    border-radius: 0.12rem;
+    font-size: 0.20rem;
+    color: #6d6d6d; }
+    .xm_hc .clear img {
+      float: left;
+      display: inline;
+      width: 0.16rem;
+      margin-left: 0.12rem;
+      margin-top: 0.05rem;
+      margin-right: 0.1rem; }
+
+.xm_hx {
+  width: 100%;
+  height: 0.02rem;
+  background-color: #e1e1e1;
+  margin-top: 0.08rem; }
+
+.xm_record {
+  width: 93%;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.xm_reone {
+  width: 100%;
+  height: 1.56rem;
+  margin: 0.2rem auto 0;
+  background-color: #000;
+  transform: translate3d(0, 0, 0);
+  transition: transform 0.8s ease;
+  position: relative; }
+  .xm_reone:hover {
+    transform: translate3d(-0.9rem, 0, 0); }
+
+.xm_show2 {
+  background: url("../images/xs3.png"); }
+
+.xm_show {
+  width: 100%;
+  height: 1.58rem;
+  background: url("../images/xs2.png");
+  background-size: cover;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 12; }
+  .xm_show .xm_avta {
+    width: 17%; }
+  .xm_show .xm_hcon {
+    float: right;
+    width: 83%;
+    height: 100%;
+    background: url("../images/xs5.png");
+    background-size: cover;
+    border-radius: 0.09rem;
+    padding: 0.22rem 0.18rem 0 0.27rem; }
+    .xm_show .xm_hcon p {
+      font-size: 0.24rem;
+      font-family: 'sanfan Bold';
+      color: #727272;
+      height: 0.26rem; }
+      .xm_show .xm_hcon p span {
+        font-family: 'sanfan'; }
+      .xm_show .xm_hcon p .xm_star {
+        width: 1.07rem;
+        display: inline-block;
+        margin-left: 0.1rem;
+        height: auto;
+        margin: 0; }
+    .xm_show .xm_hcon img {
+      width: 2.55rem;
+      height: 0.01rem;
+      margin-top: 0.1rem;
+      display: inherit; }
+    .xm_show .xm_hcon pre {
+      margin-top: 0.05rem;
+      font-size: 0.24rem;
+      color: #9e9e9e; }
+    .xm_show .xm_hcon .xm_look {
+      width: 1.68rem;
+      height: 0.48rem;
+      position: absolute;
+      right: 0.17rem;
+      bottom: 0.44rem;
+      border-radius: 0.22rem;
+      border: 0.02rem solid #c7c7c7;
+      line-height: 0.45rem;
+      text-align: center;
+      font-size: 0.18rem;
+      color: #9e9e9e; }
+    .xm_show .xm_hcon .xm_shaw {
+      margin-top: 0.1rem;
+      width: 3.22rem;
+      height: 0.37rem; }
+      .xm_show .xm_hcon .xm_shaw li {
+        width: 50%;
+        height: 100%;
+        float: left; }
+        .xm_show .xm_hcon .xm_shaw li .xm_zi {
+          float: left;
+          font-size: 0.24rem;
+          color: #949494;
+          margin-left: 0.1rem; }
+        .xm_show .xm_hcon .xm_shaw li .xm_small {
+          float: left;
+          width: 0.37rem;
+          height: 0.37rem;
+          background: url("../images/xm-small.png");
+          background-size: cover; }
+        .xm_show .xm_hcon .xm_shaw li .xm_share {
+          float: left;
+          width: 0.37rem;
+          height: 0.37rem;
+          background: url("../images/xm-share.png");
+          background-size: cover; }
+
+.xm_hide {
+  width: 1.1rem;
+  height: 1.56rem;
+  position: absolute;
+  right: -0.9rem;
+  top: 0;
+  border-radius: 0.09rem;
+  overflow: hidden; }
+  .xm_hide .xm_delete {
+    width: 100%;
+    height: 50%;
+    background-color: #f92158;
+    text-align: center; }
+    .xm_hide .xm_delete img {
+      width: 0.18rem;
+      margin-top: 0.26rem; }
+  .xm_hide .xm_share {
+    width: 100%;
+    height: 50%;
+    background-color: #5293dc;
+    text-align: center; }
+    .xm_hide .xm_share img {
+      width: 0.23rem;
+      margin-top: 0.26rem; }
+
+.xm_hot {
+  width: 100%; }
+
+.xm_hotcon {
+  width: 93%;
+  height: 10.30rem;
+  margin: 0 auto;
+  background: url("../images/xm_hot2.png") no-repeat top left;
+  overflow: hidden;
+  background-size: 100%;
+  position: relative; }
+  .xm_hotcon .yq_lunbo_images {
+    width: 93%;
+    height: 4.33rem;
+    margin: 0.25rem auto; }
+    .xm_hotcon .yq_lunbo_images .yq_lunbo_images_top {
+      width: 100%;
+      height: 1.92rem;
+      margin-bottom: 0.08rem; }
+      .xm_hotcon .yq_lunbo_images .yq_lunbo_images_top > ul {
+        width: 100%;
+        height: 100%;
+        position: relative; }
+        .xm_hotcon .yq_lunbo_images .yq_lunbo_images_top > ul .yq_lunbo_li {
+          width: 33%;
+          height: 1.92rem;
+          float: left;
+          margin-right: 0.03rem; }
+        .xm_hotcon .yq_lunbo_images .yq_lunbo_images_top > ul .yq_right {
+          margin-right: 0; }
+    .xm_hotcon .yq_lunbo_images .lunbo_images_bottom {
+      width: 100%;
+      height: 2.34rem; }
+      .xm_hotcon .yq_lunbo_images .lunbo_images_bottom .yq_bottom_left {
+        width: 66.3%;
+        height: 100%;
+        float: left;
+        margin-right: 0.03rem; }
+      .xm_hotcon .yq_lunbo_images .lunbo_images_bottom .yq_bottom_right {
+        width: 33%;
+        height: 100%;
+        background: silver;
+        float: left; }
+
+.xm_lunbo {
+  width: 100%;
+  height: 9.35rem;
+  background-color: #fff;
+  background: url("../images/xm_hot1.png") no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 100%;
+  top: 0.95rem;
+  transition: left 0.8s ease; }
+  .xm_lunbo img {
+    width: 100%; }
+
+.active {
+  left: 0; }
+
+.yq_check {
+  width: 98%;
+  height: 3.1rem;
+  border-bottom: 1px solid #e3e3e3;
+  margin: 0.6rem  auto 0;
+  padding: 0.2rem; }
+  .yq_check .yq_check_top {
+    width: 100%;
+    height: 1rem;
+    position: relative; }
+    .yq_check .yq_check_top .yq_check_left {
+      width: 3.23rem;
+      height: 100%;
+      position: absolute;
+      left: 0;
+      top: 0; }
+      .yq_check .yq_check_top .yq_check_left .yq_check_tu {
+        width: 0.9rem;
+        height: 0.9rem; }
+      .yq_check .yq_check_top .yq_check_left .yq_check_name {
+        position: absolute;
+        top: 0;
+        left: 0.97rem;
+        width: 1.5rem;
+        height: 100%; }
+        .yq_check .yq_check_top .yq_check_left .yq_check_name h3 {
+          font-family: "苹方";
+          font-size: 0.36rem; }
+      .yq_check .yq_check_top .yq_check_left .yq_check_iphone {
+        width: 0.83rem;
+        height: 0.35rem; }
+      .yq_check .yq_check_top .yq_check_left .yq_check_zhang {
+        position: absolute;
+        top: 0.07rem;
+        right: 0;
+        width: 0.42rem;
+        height: 0.35rem; }
+    .yq_check .yq_check_top .yq_check_right {
+      width: 1.33rem;
+      height: 100%;
+      position: absolute;
+      right: 0.15rem;
+      top: 0; }
+      .yq_check .yq_check_top .yq_check_right .yq_check_yuan {
+        display: inline-block;
+        width: 0.07rem;
+        height: 0.07rem;
+        border-radius: 50%;
+        background: #254987; }
+      .yq_check .yq_check_top .yq_check_right .yq_check_right_bottom {
+        width: 0.83rem;
+        height: 0.35rem;
+        margin-top: 0.13rem;
+        text-align: right; }
+  .yq_check .yq_title {
+    width: 100%; }
+    .yq_check .yq_title p {
+      font-size: 0.36rem;
+      font-family: "苹方"; }
+  .yq_check .yq_name {
+    width: 3.52rem;
+    height: 0.34rem; }
+  .yq_check .yq_text {
+    margin-top: 0.22rem;
+    width: 100%; }
+    .yq_check .yq_text p {
+      font-family: '苹方';
+      font-size: 0.29rem;
+      color: #818283; }
+
+.tuo .tuoul {
+  padding-top: 0.20rem; }
+  .tuo .tuoul .tuoli {
+    width: 1.52rem;
+    height: 0.58rem;
+    background: #e3e3e3;
+    border-radius: 0.5rem;
+    float: left;
+    margin-left: 0.11rem;
+    position: relative; }
+    .tuo .tuoul .tuoli .yuan {
+      width: 0.06rem;
+      height: 0.06rem;
+      border-radius: 50%;
+      background: #3df1a8;
+      left: -0.03rem; }
+    .tuo .tuoul .tuoli .xiao {
+      width: 0.36rem;
+      height: 0.36rem;
+      position: absolute;
+      left: 0.12rem; }
+    .tuo .tuoul .tuoli .zhuan {
+      width: 0.36rem;
+      height: 0.36rem;
+      position: absolute;
+      left: 0.12rem; }
+    .tuo .tuoul .tuoli h3 {
+      font-size: 0.22rem;
+      color: #9a9a9a;
+      text-align: right;
+      line-height: 0.58rem;
+      margin-right: 0.12rem; }
+  .tuo .tuoul .right {
+    position: absolute;
+    right: 0.24rem; }
+    .tuo .tuoul .right li {
+      width: 0.58rem;
+      height: 0.58rem;
+      border-radius: 50%;
+      float: left;
+      margin-left: -0.1rem;
+      font-size: 0.22rem;
+      color: #9a9a9a;
+      text-align: center;
+      line-height: 0.58rem; }
+
+.tuo .tuoul .right li:nth-child(4) {
+  background: #2f3236; }
+
+.tuo .tuoul .right li:nth-child(1) {
+  width: 0.64rem;
+  height: 0.64rem;
+  background: url("../images/yq-tu10.png") no-repeat;
+  background-size: contain; }
+
+.tuo .tuoul .right li:nth-child(2) {
+  width: 0.64rem;
+  height: 0.64rem;
+  background: url("../images/yq-tu11.png") no-repeat;
+  background-size: contain; }
+
+.tuo .tuoul .right li:nth-child(3) {
+  width: 0.64rem;
+  height: 0.64rem;
+  background: url("../images/yq-tu12.png") no-repeat;
+  background-size: contain; }
+
+.xm_check {
+  width: 1.25rem;
+  height: 0.1rem;
+  margin: 0 auto;
+  text-align: justify; }
+  .xm_check::after {
+    content: '';
+    width: 100%;
+    display: inline-block; }
+  .xm_check li {
+    display: inline-block;
+    width: 0.1rem;
+    height: 0.1rem;
+    border-radius: 50%;
+    margin: 0.3rem 0; }
+  .xm_check li:nth-child(1) {
+    background-color: #f92158; }
+  .xm_check li:nth-child(2) {
+    background-color: #1fc866; }
+  .xm_check li:nth-child(3) {
+    background-color: #5193dd; }
+  .xm_check li:nth-child(4) {
+    background-color: #e9f01d; }
+  .xm_check li:nth-child(5) {
+    background-color: #f92158; }
+
+.footer {
+  width: 100%;
+  height: 1rem;
+  background: #222932;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 66; }
+  .footer .footul .footli {
+    float: left; }
+
+.footer .footul .footli:nth-child(1) {
+  width: 25%;
+  height: 1rem;
+  background: url("../images/wzq.png");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.footer .footul .footli:nth-child(2) {
+  width: 25%;
+  height: 1rem;
+  background: url("../images/wzq3.png");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.footer .footul .footli:nth-child(3) {
+  width: 25%;
+  height: 1rem;
+  background: url("../images/wzq1.png");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.footer .footul .footli:nth-child(4) {
+  width: 25%;
+  height: 1rem;
+  background: url("../images/wzq2.png");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.footer .footul .footli.active:nth-child(1) {
+  width: 25%;
+  height: 1.1rem;
+  background: url("../images/wzh1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: -0.06rem; }
+
+.footer .footul .footli.active:nth-child(2) {
+  width: 25%;
+  height: 1.1rem;
+  background: url("../images/wzh3.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: -0.06rem; }
+
+.footer .footul .footli.active:nth-child(3) {
+  width: 25%;
+  height: 1.1rem;
+  background: url("../images/wzh2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: -0.06rem; }
+
+.footer .footul .footli.active:nth-child(4) {
+  width: 25%;
+  height: 1.1rem;
+  background: url("../images/wzh.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: -0.06rem; }

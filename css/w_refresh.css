@@ -1,0 +1,209 @@
+@import url(col.css);
+.w_nowbox .xm_con1 .tuoul .tuoli .xiao, .w_nowbox .xm_con1 .tuoul .tuoli .zhuan, .w_nowbox .xm_con1 .xm_linebox .xm_center {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0; }
+
+body {
+  background: #f6f5f5; }
+
+.w_headerbox {
+  width: 100%;
+  height: 1.05rem;
+  background: #083368;
+  padding: 0.15rem 0.25rem;
+  box-sizing: border-box; }
+  .w_headerbox .w_liao {
+    width: 0.51rem;
+    float: left; }
+  .w_headerbox .w_center {
+    width: 4.18rem;
+    height: 0.85rem;
+    background: url("../images/w_14_03.png") no-repeat;
+    background-size: contain;
+    margin-left: 0.85rem;
+    float: left; }
+    .w_headerbox .w_center .w_all {
+      display: block;
+      width: 2.17rem;
+      height: 0.82rem;
+      background: url("../images/w_11.png") no-repeat;
+      background-size: cover;
+      float: left; }
+    .w_headerbox .w_center .w_my {
+      display: block;
+      width: 1.26rem;
+      height: 0.38rem;
+      background: url("../images/w_13.png") no-repeat;
+      background-size: cover;
+      float: right;
+      margin-top: 0.2rem;
+      margin-right: 0.4rem; }
+  .w_headerbox .add {
+    width: 0.34rem;
+    float: right;
+    margin-top: 0.25rem; }
+
+.w_nowbox {
+  width: 100%;
+  height: 10.45rem;
+  padding: 0.2rem 0.25rem; }
+  .w_nowbox .w_titlebox {
+    width: 100%;
+    height: 0.6rem; }
+    .w_nowbox .w_titlebox img {
+      width: 0.47rem;
+      float: left;
+      margin-top: 0.05rem; }
+    .w_nowbox .w_titlebox .w_fontbox {
+      float: left;
+      margin-left: 0.08rem; }
+      .w_nowbox .w_titlebox .w_fontbox .w_font {
+        font-size: 0.24rem;
+        color: #626364; }
+      .w_nowbox .w_titlebox .w_fontbox .w_eng {
+        font-size: 0.18rem;
+        color: #626364; }
+  .w_nowbox .w_border {
+    width: 100%;
+    height: 0.02rem;
+    background: url("../images/w_2.png") no-repeat;
+    margin-top: 0.05rem; }
+  .w_nowbox .xm_con1 {
+    width: 3.4rem;
+    height: 4.4rem;
+    background: url("../images/xm_s3.png") no-repeat;
+    background-size: cover;
+    padding: 0.12rem 0.13rem;
+    box-sizing: border-box;
+    margin: 0.08rem 0.05rem;
+    float: left; }
+    .w_nowbox .xm_con1 img {
+      width: 3.2rem; }
+    .w_nowbox .xm_con1 .tuoul {
+      width: 100%;
+      height: 0.3rem;
+      padding: 0; }
+      .w_nowbox .xm_con1 .tuoul .tuoli {
+        width: 1rem;
+        float: left;
+        position: relative; }
+        .w_nowbox .xm_con1 .tuoul .tuoli .xiao {
+          width: 0.25rem;
+          position: absolute; }
+        .w_nowbox .xm_con1 .tuoul .tuoli .zhuan {
+          width: 0.25rem;
+          position: absolute;
+          left: 0.12rem; }
+        .w_nowbox .xm_con1 .tuoul .tuoli h3 {
+          font-size: 0.2rem;
+          color: #949494;
+          text-align: right;
+          line-height: 0.3rem; }
+    .w_nowbox .xm_con1 .xm_confont span {
+      font-size: 0.3rem;
+      color: #626364;
+      display: block; }
+    .w_nowbox .xm_con1 .xm_confont b {
+      font-size: 0.25rem;
+      color: #e9e9e9;
+      font-weight: normal;
+      display: block;
+      width: 100%;
+      height: 0.2rem;
+      margin-top: -0.18rem; }
+    .w_nowbox .xm_con1 .xm_confont i {
+      font-style: normal;
+      font-size: 0.24rem;
+      color: #626364;
+      display: inline-block; }
+    .w_nowbox .xm_con1 .xm_confont img {
+      width: 0.26rem;
+      display: inline-block; }
+    .w_nowbox .xm_con1 .xm_ph {
+      width: 100%;
+      height: 0.33rem; }
+      .w_nowbox .xm_con1 .xm_ph .xm_left {
+        float: left; }
+        .w_nowbox .xm_con1 .xm_ph .xm_left img {
+          width: 0.69rem; }
+      .w_nowbox .xm_con1 .xm_ph .xm_right {
+        float: right; }
+        .w_nowbox .xm_con1 .xm_ph .xm_right .xm_first {
+          width: 0.06rem;
+          height: 0.06rem;
+          border-radius: 50%;
+          background: #254987;
+          float: left;
+          margin-top: 0.15rem; }
+        .w_nowbox .xm_con1 .xm_ph .xm_right .xm_second {
+          width: 0.06rem;
+          height: 0.06rem;
+          border-radius: 50%;
+          background: #3df1a8;
+          float: left;
+          margin-left: 0.05rem;
+          margin-right: 0.05rem;
+          margin-top: 0.15rem; }
+        .w_nowbox .xm_con1 .xm_ph .xm_right .xm_three {
+          font-size: 0.2rem;
+          color: #747474;
+          float: left; }
+    .w_nowbox .xm_con1 .xm_linebox {
+      width: 100%;
+      height: 0.04rem;
+      margin-top: 0.05rem;
+      position: relative; }
+      .w_nowbox .xm_con1 .xm_linebox .xm_left {
+        width: 0.04rem;
+        height: 0.04rem;
+        border-radius: 50%;
+        background: #aeaeae;
+        position: absolute;
+        left: 0;
+        top: 0; }
+      .w_nowbox .xm_con1 .xm_linebox .xm_center {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        height: 0.02rem;
+        background: #aeaeae; }
+      .w_nowbox .xm_con1 .xm_linebox .xm_right {
+        width: 0.04rem;
+        height: 0.04rem;
+        border-radius: 50%;
+        background: #aeaeae;
+        position: absolute;
+        right: 0;
+        top: 0; }
+    .w_nowbox .xm_con1 .xm_people {
+      width: 100%;
+      height: 0.3rem;
+      margin-top: 0.05rem; }
+      .w_nowbox .xm_con1 .xm_people img {
+        width: 0.33rem;
+        float: left; }
+      .w_nowbox .xm_con1 .xm_people .xm_name {
+        float: left;
+        margin-left: 0.08rem;
+        line-height: 0.3rem; }
+        .w_nowbox .xm_con1 .xm_people .xm_name p {
+          display: inline-block;
+          font-size: 0.24rem;
+          color: #5c5c5c; }
+        .w_nowbox .xm_con1 .xm_people .xm_name span {
+          display: inline-block;
+          font-size: 0.24rem;
+          color: #727272; }
+      .w_nowbox .xm_con1 .xm_people .xm_eight {
+        width: 0.25rem;
+        margin-left: 0.15rem;
+        margin-top: 0.06rem; }
+      .w_nowbox .xm_con1 .xm_people .xm_travel {
+        width: 0.83rem;
+        float: right;
+        margin-top: 0.06rem; }
+
+.w_prev {
+  height: 7rem; }

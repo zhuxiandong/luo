@@ -1,0 +1,206 @@
+@charset "UTF-8";
+html {
+  font-size: 100px; }
+
+@media (min-width: 320px) {
+  html {
+    font-size: 42.66667px; } }
+
+@media (min-width: 360px) {
+  html {
+    font-size: 48px; } }
+
+@media (min-width: 375px) {
+  html {
+    font-size: 50px; } }
+
+@media (min-width: 412px) {
+  html {
+    font-size: 54.93333px; } }
+
+@media (min-width: 414px) {
+  html {
+    font-size: 55.2px; } }
+
+@media (min-width: 750px) {
+  html {
+    font-size: 100px; } }
+
+body {
+  font-size: 16px; }
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-family: "苹方","微软雅黑","Microsoft YaHei",sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none; }
+
+img {
+  border: 0; }
+
+.row {
+  min-height: 1px; }
+
+.row::after {
+  content: '';
+  clear: both; }
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+  float: left;
+  position: relative; }
+
+.col-1 {
+  width: 8.33333%; }
+
+.col-2 {
+  width: 16.66667%; }
+
+.col-3 {
+  width: 25%; }
+
+.col-4 {
+  width: 33.33333%; }
+
+.col-5 {
+  width: 41.66667%; }
+
+.col-6 {
+  width: 50%; }
+
+.col-7 {
+  width: 58.33333%; }
+
+.col-8 {
+  width: 66.66667%; }
+
+.col-9 {
+  width: 75%; }
+
+.col-10 {
+  width: 83.33333%; }
+
+.col-11 {
+  width: 91.66667%; }
+
+.col-12 {
+  width: 100%; }
+
+html, body {
+  background: #2ba8ff;
+  padding: 0.35rem 0.55rem 0.55rem 0.55rem;
+  margin: 0;
+  width: 100%;
+  height: 100%; }
+
+.center {
+  width: 100%;
+  margin: auto; }
+
+.hlj_centerbox {
+  width: 100%;
+  height: 80%;
+  position: relative;
+  overflow: hidden; }
+  .hlj_centerbox .hlj_center {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0; }
+  /*.hlj_centerbox .hlj_dispaly {
+    display: block; }*/
+
+.hlj_jumpbox {
+  height: 12%;
+  padding-right: 0.10rem; }
+  .hlj_jumpbox .hlj_jump {
+    display: block;
+    width: 0.71rem;
+    height: 0.71rem;
+    background-image: url(../images/hlj_jump03.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right; }
+
+.hlj_song {
+  height: 40%;
+  margin: 0 auto; }
+  .hlj_song .hlj_story {
+    width: 5.25rem;
+    height: 5.23rem;
+    margin: 0 auto;
+    background-image: url(../images/hlj_sky_07.png); }
+  .hlj_song .hlj_song {
+    width: 5.25rem;
+    height: 5.23rem;
+    margin: 0 auto;
+    background-image: url(../images/hlj_song.png); }
+  .hlj_song .hlj_message {
+    width: 6.27rem;
+    height: 6.24rem;
+    margin: 0 auto;
+    background-image: url(../images/hlj_message_03.png); }
+  .hlj_song .hlj_start {
+    width: 6.47rem;
+    height: 8.62rem;
+    margin: 0 auto;
+    background-image: url(../images/hlj_peraon_03.png); }
+
+.hlj_word {
+  height: 37%;
+  margin: 1.85rem auto 0 auto; }
+  .hlj_word .hlj_choose {
+    width: 6.59rem;
+    height: 4.2rem;
+    background-image: url(../images/hlj_friend_06.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto; }
+  .hlj_word .hlj_beckon {
+    width: 6.59rem;
+    height: 4.2rem;
+    background-image: url(../images/hlj_word.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto; }
+  .hlj_word .hlj_friend {
+    width: 6.59rem;
+    height: 4.2rem;
+    background-image: url(../images/hlj_friend_06.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto; }
+  .hlj_word .hlj_open {
+    display: block;
+    width: 4.35rem;
+    height: 1.2rem;
+    background-image: url(../images/hlj_start.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto; }
+
+.hlj_enter {
+  height: 67%; }
+
+.hlj_entry {
+  height: 30%; }
+
+.hlj_btnbox {
+  position: fixed;
+  height: 5%;
+  padding-bottom: 0.55rem;
+  padding-left: 3.5rem; }
+  .hlj_btnbox li {
+    width: 0.18rem;
+    height: 0.18rem;
+    border-radius: 50%;
+    background: #fff;
+    float: left;
+    margin-right: 0.24rem; }
+  .hlj_btnbox .hlj_btn {
+    margin-right: 0; }
+  /*.hlj_btnbox .hlj_active {
+    background: #1f95e7; }*/

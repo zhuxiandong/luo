@@ -1,0 +1,86 @@
+@charset "UTF-8";
+.zq_sign_box {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: url("../images/zq_back.png");
+  background-size: cover; }
+  .zq_sign_box .zq_inside_box {
+    width: 7.02rem;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 0.4rem; }
+
+.zq_nav {
+  position: relative;
+  width: 100%;
+  height: 0.6rem; }
+  .zq_nav a img {
+    width: 0.34rem;
+    height: 0.6rem; }
+  .zq_nav .zq_title {
+    position: absolute;
+    top: 0.3rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 1.92rem;
+    height: 0.62rem;
+    background: url("../images/zq_head_title.png");
+    background-size: cover; }
+
+/*内容 开始*/
+.zq_con_box {
+  margin-top: 0.4rem;
+  width: 100%;
+  min-height: 2.0rem; }
+  .zq_con_box .zq_con_title {
+    width: 2.93rem;
+    height: 0.57rem; }
+    .zq_con_box .zq_con_title img {
+      width: 2.93rem;
+      height: 0.57rem; }
+  .zq_con_box .zq_con {
+    width: 100%;
+    min-height: 1.0rem;
+    margin-top: 0.3rem; }
+
+.zq_img_box {
+  float: left;
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 0.1rem;
+  border: 0.01rem solid #fff;
+  margin: 0.07rem; }
+  .zq_img_box img {
+    width: 2.2rem;
+    height: 2.2rem; }
+
+.zq_add {
+  width: 1.87rem;
+  min-height: 1.87rem;
+  position: absolute;
+  bottom: 2.5rem;
+  left: 0;
+  right: 0;
+  margin: 0 auto; }
+  .zq_add img {
+    width: 1.87rem;
+    height: 1.87rem; }
+  .zq_add .zq_add_intro {
+    text-align: center;
+    color: #fff; }
+
+.zq_select_box {
+  width: 100%;
+  height: 1.06rem;
+  position: absolute;
+  bottom: 1.1rem; }
+  .zq_select_box .zq_select {
+    float: left;
+    width: 50%;
+    height: 100%; }
+    .zq_select_box .zq_select img {
+      width: 3.23rem;
+      height: 1.06rem;
+      margin: 0 auto; }

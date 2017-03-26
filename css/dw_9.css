@@ -1,0 +1,45 @@
+@charset "UTF-8";
+.d_defect, .d_defect ul, .d_defect a {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto; }
+
+@font-face {
+  font-family: '苹方';
+  src: url("../fonts/PingFang Regular.ttf"); }
+
+@font-face {
+  font-family: 'sanfan';
+  src: url("../fonts/SYSTEM SAN FRANCISCO DISPLAY REGULAR.TTF"); }
+
+body {
+  background: url(../images/w_69.jpg);
+  position: relative; }
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.d_defect {
+  width: 6.26rem;
+  height: 3.5rem;
+  background: url(../images/w_64.jpg);
+  background-size: cover;
+  top: 3.68rem; }
+  .d_defect ul {
+    width: 0.48rem;
+    height: 0.51rem;
+    background: url(../images/w_65.jpg);
+    background-size: cover;
+    left: 5.5rem;
+    top: 0.5rem;
+    cursor: pointer; }
+  .d_defect a {
+    display: block;
+    width: 2.89rem;
+    height: 0.9rem;
+    background: url(../images/w_66.jpg);
+    background-size: cover;
+    top: 3rem; }

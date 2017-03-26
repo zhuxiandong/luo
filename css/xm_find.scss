@@ -1,0 +1,82 @@
+@import "_base";
+.xm_all{
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  opacity: 0.5;
+  position: relative;
+}
+.xm_res{
+  @include rect(91%,auto);
+  @include bg(#fff);
+  @extend %lr;
+  top:0.95rem;
+  z-index: 12;
+  border-radius: 0.10rem;
+  padding: 0 0.10rem 0.14rem;
+  box-shadow: 0.02rem 0.02rem 0.02rem #eee;
+  a{
+    display: block;
+  }
+  .xm_src{
+    position: absolute;
+    top: -0.32rem;
+    left: 0.1rem;
+  }
+}
+.xm_rescon{
+  @include rect(100%,1.12rem);
+  border-bottom: 0.02rem solid #d6d6d6;
+  .xm_actar{
+    @include rect(17%,100%);
+    float: left;
+    img{
+      width: 0.63rem;
+      margin-left: 0.23rem;
+      margin-top: 0.24rem;
+      float: left;
+    }
+    .line{
+      width: 0.04rem;
+      height: 0.5rem;
+      margin-left: 0.13rem;
+      margin-top: 0.30rem;
+      float: left;
+      background: url("../images/xm-line.png");
+      background-size: cover;
+    }
+  }
+  .xm_des{
+    @include rect(83%,100%);
+    float: left;
+    padding: 0.2rem 0.1rem;
+    position: relative;
+    div{
+      font-size: 0.24rem;
+      color: #434343;
+      height: 0.24rem;
+      line-height: 0.24rem;
+      img{
+        width: 3.30rem;
+      }
+    }
+    .xm_lan{
+      @include rect(1.50rem,0.3rem);
+      border-radius: 0.14rem;
+      background: #5393db;
+      text-align: center;
+      color: #fff;
+      font-size: 0.24rem;
+      position: absolute;
+      line-height: 0.32rem;
+      right: 0.3rem;
+      bottom:0.2rem;
+    }
+    .xm_jiang{
+      position: absolute;
+      top:0.3rem;
+      right: 0.3rem;
+      width: 0.62rem;
+    }
+  }
+}

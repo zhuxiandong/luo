@@ -1,0 +1,160 @@
+.ws_content{
+  width: 100%;
+  padding: 0 0.24rem; }
+
+.ws_sorry {
+  width: 3.87rem;
+  height: 0.65rem;
+  margin-top: 0.55rem; }
+
+.ws_prompt {
+  margin-top: 0.32rem;
+  font-size: 0.24rem;
+  color: #b5b5b5; }
+
+.ws_this {
+  width: 100%;
+  height: 0.3rem;
+  text-align: left;
+  line-height: 0.3rem;
+  margin-top: 0.6rem;
+  font-size: 0.24rem;
+  color: #686868; }
+
+.ws_hot {
+  width: 100%;
+  height: 0.7rem;
+  margin-top: 0.4rem; }
+  .ws_hot li {
+    width: 180px;
+    height: 100%;
+    border: 1px solid #5193dd;
+    border-radius: 34px;
+    float: left;
+    margin-left: 1.8rem;
+    margin-right: 0.4rem;
+    color: #686868;
+    line-height: 0.7rem;
+    font-size: 0.3rem;
+    text-align: center;
+    position: relative; }
+    .ws_hot li span {
+      display: block;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #21e092;
+      position: absolute; }
+    .ws_hot li .left {
+      left: -2px;
+      top: 50%; }
+    .ws_hot li .right {
+      right: -2px;
+      top: 50%; }
+
+.interest {
+  width: 100%;
+  height: 0.5rem;
+  border-bottom: 1px solid #e1e1e1;
+  margin-top: 0.6rem; }
+  .interest h1 {
+    font-size: 0.3rem;
+    color: #686868;
+    width: 26%;
+    float: left; }
+  .interest .dot {
+    width: 1px;
+    height: 0.24rem;
+    margin-top: 8px;
+    float: left;
+    position: relative; }
+    .interest .dot span {
+      width: 3px;
+      height: 3px;
+      border-radius: 50%;
+      background: #a4a4a4;
+      position: absolute; }
+    .interest .dot .top {
+      top: -1px; }
+    .interest .dot .bottom {
+      bottom: -1px; }
+  .interest h2 {
+    margin-left: 10px;
+    font-size: 0.3rem;
+    color: #838383;
+    float: left; }
+  .interest .red {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #f21860;
+    float: left;
+    margin-left: 6px;
+    margin-top: 13px; }
+  .interest .blue {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #4377e3;
+    float: left;
+    margin-left: 6px;
+    margin-top: 13px; }
+
+.ws_bottom {
+  width: 100%;
+  height: 7.3rem;
+  text-align: center; }
+  .ws_bottom img {
+    width:5.38rem;
+    margin-top: 0.42rem; }
+
+  .xm_nohis{
+    width: 100%;
+    padding:0 0.24rem;
+  }
+.xm_nohis .xm_nocon{
+  width: 100%;
+  height: 1.15rem;
+  background: #fff;
+  border-radius: 0.08rem;
+  margin: 0.2rem auto 0;
+}
+.xm_nohis .xm_nocon .xm_conone{
+  width: 16%;
+  height: 100%;
+  float: left;
+  text-align: center;
+}
+.xm_nohis .xm_nocon .xm_conone img{
+  width: 0.63rem;
+  margin-top: 0.28rem;
+  height: auto;
+  float: none;
+}
+.xm_nohis .xm_nocon .xm_contwo{
+  width: 82%;
+  height: 100%;
+  float: left;
+  padding-top: 0.26rem;
+  padding-left: 0.23rem;
+}
+.xm_nohis .xm_nocon img{
+  width: 0.04rem;
+  height: 0.52rem;
+  float: left;
+  margin-top: 0.3rem;
+}
+.xm_nohis .xm_nocon .xm_contwo img{
+  width: 2.55rem;
+  height: 0.01rem;
+  display: inherit;
+  margin:0.05rem 0;
+}
+.xm_nohis .xm_nocon .xm_contwo p{
+  font-size: 0.24rem;
+  color: #9e9e9e;
+}
+.xm_nohis .xm_nocon .xm_contwo .ying{
+  font-family:'sanfan';
+  display: inline-block;
+}

@@ -1,0 +1,140 @@
+.w_headerbox {
+  width: 100%;
+  height: 1.05rem;
+  background: #083368;
+  padding: 0.15rem 0.25rem;
+  box-sizing: border-box; }
+.w_headerbox .w_liao {
+  width: 0.21rem;
+  margin-top: 0.25rem;
+  float: left; }
+.w_headerbox .w_center {
+  width: 4.18rem;
+  height: 0.85rem;
+  background: url("../images/w_14_03.png") no-repeat;
+  background-size: contain;
+  margin-left: 0.85rem;
+  float: left; }
+.w_headerbox .w_center .w_all {
+  display: block;
+  width: 2.17rem;
+  height: 0.82rem;
+  background: url("../images/1.png") no-repeat;
+  background-size: cover;
+  float: left; }
+.w_headerbox .w_center .w_my {
+  display: block;
+  width: 1.26rem;
+  height: 0.38rem;
+  background: url("../images/2.png") no-repeat;
+  background-size: cover;
+  float: right;
+  margin-top: 0.2rem;
+  margin-right: 0.4rem; }
+.w_headerbox .add {
+  width: 0.34rem;
+  float: right;
+  margin-top: 0.25rem; }
+
+.hx_friendm {
+  width: 100%;
+  padding: 0 0.24rem;
+  margin: 0.1rem auto;
+  overflow: hidden; }
+  .hx_friendm li a {
+    display: block;
+    transition: all 0.8s ease;
+    position: relative;
+    width: 100%;
+    height: 1.36rem;
+    border-bottom: 0.02rem solid #dedede; }
+    .hx_friendm li a .hx_avatar {
+      width: 0.94rem;
+      height: 0.94rem;
+      border-radius: 50%;
+      float: left;
+      margin-top: 0.2rem;
+      overflow: hidden; }
+      .hx_friendm li a .hx_avatar img {
+        width: 0.94rem; }
+    .hx_friendm li a .hx_massage {
+      height: 0.94rem;
+      float: left;
+      margin-left: 0.17rem;
+      margin-top: 0.2rem; }
+      .hx_friendm li a .hx_massage b {
+        font-size: 0.3rem;
+        line-height: 0.48rem;
+        color: #444; }
+      .hx_friendm li a .hx_massage p {
+        font-size: 0.2rem;
+        line-height: 0.44rem;
+        color: #8a8a8a; }
+        .hx_friendm li a .hx_massage p span {
+          float: left; }
+        .hx_friendm li a .hx_massage p img {
+          float: left;
+          width: 0.48rem;
+          margin-top: 0.1rem; }
+      .hx_friendm li a .hx_massage .hx_say {
+        font-size: 0.2rem;
+        line-height: 0.44rem;
+        color: #8a8a8a; }
+        .hx_friendm li a .hx_massage .hx_say span {
+          float: left; }
+        .hx_friendm li a .hx_massage .hx_say img {
+          float: left;
+          width: 0.23rem;
+          margin-top: 0.1rem;
+          margin-left: 0.15rem; }
+    .hx_friendm li a .hx_uptime {
+      height: 0.94rem;
+      float: right;
+      margin-top: 0.2rem; }
+      .hx_friendm li a .hx_uptime .hx_time {
+        color: #8a8a8a;
+        font-size: 0.24rem;
+        line-height: 0.44rem; }
+      .hx_friendm li a .hx_uptime .hx_amount {
+        width: 0.33rem;
+        height: 0.33rem;
+        border-radius: 50%;
+        background-color: #30e9e4;
+        line-height: 0.33rem;
+        text-align: center;
+        color: #fff;
+        font-size: 0.24rem; }
+    .hx_friendm li a .hx_set {
+      width: 3.62rem;
+      height: 100%;
+      background: url(../images/hx_blue.png);
+      background-size: cover;
+      position: absolute;
+      right: -3.62rem;
+      top: 0;
+      opacity: 0;
+      padding: 0.4rem 0.16rem; }
+      .hx_friendm li a .hx_set .hx_like {
+        width: 0.44rem;
+        height: 0.44rem;
+        border-radius: 50%;
+        float: left;
+        background: url(../images/hx_like.png);
+        background-size: cover;
+        margin: 0 0.33rem; }
+      .hx_friendm li a .hx_set .hx_top {
+        width: 0.44rem;
+        height: 0.44rem;
+        border-radius: 50%;
+        float: left;
+        background: url(../images/hx_top.png);
+        background-size: cover;
+        margin: 0 0.33rem; }
+      .hx_friendm li a .hx_set .hx_delete {
+        width: 0.44rem;
+        height: 0.44rem;
+        border-radius: 50%;
+        float: left;
+        background: url(../images/hx_delete.png);
+        background-size: cover;
+        margin: 0 0.33rem; }
